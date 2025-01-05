@@ -1,0 +1,21 @@
+2024-12-18 12:31:15.288 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.0)
+2024-12-18 12:31:15.513 [info] [Info  - 12:31:15 PM] (654) Server root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2024-12-18 12:31:15.514 [info] [Info  - 12:31:15 PM] (654) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2024-12-18 12:31:15.514 [info] [Info  - 12:31:15 PM] (654) Starting service instance "ros2_ws"
+2024-12-18 12:31:15.571 [info] [Info  - 12:31:15 PM] (654) Setting environmentName for service "ros2_ws": "3.10.12 (my_env venv)"
+2024-12-18 12:31:15.572 [info] [Info  - 12:31:15 PM] (654) Setting pythonPath for service "ros2_ws": "/root/python_test/my_env/bin/python"
+2024-12-18 12:31:15.572 [info] [Info  - 12:31:15 PM] (654) No include entries specified; assuming /root/ros2_ws
+2024-12-18 12:31:15.573 [info] [Info  - 12:31:15 PM] (654) Auto-excluding **/node_modules
+2024-12-18 12:31:15.574 [info] [Info  - 12:31:15 PM] (654) Auto-excluding **/__pycache__
+2024-12-18 12:31:15.574 [info] [Info  - 12:31:15 PM] (654) Auto-excluding **/.*
+2024-12-18 12:31:15.609 [info] [Info  - 12:31:15 PM] (654) Assuming Python version 3.10.12.final.0
+2024-12-18 12:31:15.959 [info] [Info  - 12:31:15 PM] (654) Found 97 source files
+2024-12-18 12:31:16.307 [info] [Info  - 12:31:16 PM] (654) Background analysis(1) root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2024-12-18 12:31:16.309 [info] [Info  - 12:31:16 PM] (654) Background analysis(1) started
+2024-12-18 12:31:16.714 [info] [Info  - 12:31:16 PM] (654) Indexer background runner(2) root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2024-12-18 12:31:16.715 [info] [Info  - 12:31:16 PM] (654) Indexing(2) started
+2024-12-18 12:31:17.739 [info] [Info  - 12:31:17 PM] (654) scanned(2) 244 files over 1 exec env
+2024-12-18 12:31:18.647 [info] [Info  - 12:31:18 PM] (654) [BG(1)] Long operation: SemanticTokens full at file:///root/ros2_ws/src/sjtu_drone/ai_model_node/ai_model_node/classify_image.py (2195ms)
+2024-12-18 12:31:19.985 [info] [Info  - 12:31:19 PM] (654) [IDX(2)] Long operation: index packages file:///root/ros2_ws (2080ms)
+2024-12-18 12:31:19.986 [info] [Info  - 12:31:19 PM] (654) indexed(2) 244 files over 1 exec env
+2024-12-18 12:31:20.046 [info] [Info  - 12:31:20 PM] (654) Indexing finished(2).

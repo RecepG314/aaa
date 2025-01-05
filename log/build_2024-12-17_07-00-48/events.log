@@ -1,0 +1,310 @@
+[0.000000] (-) TimerEvent: {}
+[0.001335] (ai_model_node) JobQueued: {'identifier': 'ai_model_node', 'dependencies': OrderedDict()}
+[0.001513] (drone_area_scanner) JobQueued: {'identifier': 'drone_area_scanner', 'dependencies': OrderedDict()}
+[0.002002] (sjtu_drone_bringup) JobQueued: {'identifier': 'sjtu_drone_bringup', 'dependencies': OrderedDict()}
+[0.002683] (sjtu_drone_control) JobQueued: {'identifier': 'sjtu_drone_control', 'dependencies': OrderedDict()}
+[0.002745] (sjtu_drone_description) JobQueued: {'identifier': 'sjtu_drone_description', 'dependencies': OrderedDict()}
+[0.002795] (ai_model_node) JobStarted: {'identifier': 'ai_model_node'}
+[0.036842] (drone_area_scanner) JobStarted: {'identifier': 'drone_area_scanner'}
+[0.045807] (sjtu_drone_bringup) JobStarted: {'identifier': 'sjtu_drone_bringup'}
+[0.057045] (sjtu_drone_control) JobStarted: {'identifier': 'sjtu_drone_control'}
+[0.069017] (sjtu_drone_description) JobStarted: {'identifier': 'sjtu_drone_description'}
+[0.100036] (-) TimerEvent: {}
+[0.204812] (-) TimerEvent: {}
+[0.305840] (-) TimerEvent: {}
+[0.406349] (-) TimerEvent: {}
+[0.506977] (-) TimerEvent: {}
+[0.607941] (-) TimerEvent: {}
+[0.708563] (-) TimerEvent: {}
+[0.809443] (-) TimerEvent: {}
+[0.911978] (-) TimerEvent: {}
+[1.012733] (-) TimerEvent: {}
+[1.114922] (-) TimerEvent: {}
+[1.217221] (-) TimerEvent: {}
+[1.319837] (-) TimerEvent: {}
+[1.420261] (-) TimerEvent: {}
+[1.520766] (-) TimerEvent: {}
+[1.621411] (-) TimerEvent: {}
+[1.722021] (-) TimerEvent: {}
+[1.822655] (-) TimerEvent: {}
+[1.923147] (-) TimerEvent: {}
+[2.029438] (sjtu_drone_description) JobProgress: {'identifier': 'sjtu_drone_description', 'progress': 'cmake'}
+[2.029665] (-) TimerEvent: {}
+[2.030042] (sjtu_drone_description) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/sjtu_drone/sjtu_drone_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/sjtu_drone_description'], 'cwd': '/root/ros2_ws/build/sjtu_drone_description', 'env': OrderedDict([('HOSTNAME', '43f8b5f44e6a'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/sjtu_drone_description/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/sjtu_drone_description:/root/ros2_ws/install/sjtu_drone_control:/root/ros2_ws/install/sjtu_drone_bringup:/root/ros2_ws/install/drone_area_scanner:/root/ros2_ws/install/ai_model_node:/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/sjtu_drone_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/sjtu_drone_control/lib/python3.10/site-packages:/root/ros2_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages:/root/ros2_ws/install/drone_area_scanner/lib/python3.10/site-packages:/root/ros2_ws/install/ai_model_node/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/sjtu_drone_description:/root/ros2_ws/install/sjtu_drone_control:/root/ros2_ws/install/sjtu_drone_bringup:/root/ros2_ws/install/drone_area_scanner:/root/ros2_ws/install/ai_model_node:/opt/ros/humble')]), 'shell': False}
+[2.124145] (sjtu_drone_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.129814] (-) TimerEvent: {}
+[2.230284] (-) TimerEvent: {}
+[2.330768] (-) TimerEvent: {}
+[2.431389] (-) TimerEvent: {}
+[2.533963] (-) TimerEvent: {}
+[2.567208] (sjtu_drone_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.634083] (-) TimerEvent: {}
+[2.662619] (sjtu_drone_description) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.707007] (drone_area_scanner) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/root/ros2_ws/build/drone_area_scanner/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/root/ros2_ws/build/drone_area_scanner', 'env': {'HOSTNAME': '43f8b5f44e6a', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/ros2_ws/install/sjtu_drone_description/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/root/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/ros2_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': 'host.docker.internal:0.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/root/ros2_ws/install/sjtu_drone_description:/root/ros2_ws/install/sjtu_drone_control:/root/ros2_ws/install/sjtu_drone_bringup:/root/ros2_ws/install/drone_area_scanner:/root/ros2_ws/install/ai_model_node:/opt/ros/humble', 'PWD': '/root/ros2_ws/build/drone_area_scanner', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/ros2_ws/build/drone_area_scanner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/drone_area_scanner/lib/python3.10/site-packages:/root/ros2_ws/install/sjtu_drone_control/lib/python3.10/site-packages:/root/ros2_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages:/root/ros2_ws/install/drone_area_scanner/lib/python3.10/site-packages:/root/ros2_ws/install/ai_model_node/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/ros2_ws/install/sjtu_drone_description'}, 'shell': False}
+[2.712374] (sjtu_drone_description) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.734373] (-) TimerEvent: {}
+[2.755727] (ai_model_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/root/ros2_ws/build/ai_model_node/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/root/ros2_ws/build/ai_model_node', 'env': {'HOSTNAME': '43f8b5f44e6a', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/ros2_ws/install/sjtu_drone_description/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/root/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/ros2_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': 'host.docker.internal:0.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/root/ros2_ws/install/sjtu_drone_description:/root/ros2_ws/install/sjtu_drone_control:/root/ros2_ws/install/sjtu_drone_bringup:/root/ros2_ws/install/drone_area_scanner:/root/ros2_ws/install/ai_model_node:/opt/ros/humble', 'PWD': '/root/ros2_ws/build/ai_model_node', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/ros2_ws/build/ai_model_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/ai_model_node/lib/python3.10/site-packages:/root/ros2_ws/install/sjtu_drone_control/lib/python3.10/site-packages:/root/ros2_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages:/root/ros2_ws/install/drone_area_scanner/lib/python3.10/site-packages:/root/ros2_ws/install/ai_model_node/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/ros2_ws/install/sjtu_drone_description'}, 'shell': False}
+[2.778779] (sjtu_drone_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/root/ros2_ws/build/sjtu_drone_bringup/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/root/ros2_ws/build/sjtu_drone_bringup', 'env': {'HOSTNAME': '43f8b5f44e6a', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/ros2_ws/install/sjtu_drone_description/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/root/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/ros2_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': 'host.docker.internal:0.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/root/ros2_ws/install/sjtu_drone_description:/root/ros2_ws/install/sjtu_drone_control:/root/ros2_ws/install/sjtu_drone_bringup:/root/ros2_ws/install/drone_area_scanner:/root/ros2_ws/install/ai_model_node:/opt/ros/humble', 'PWD': '/root/ros2_ws/build/sjtu_drone_bringup', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/ros2_ws/build/sjtu_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages:/root/ros2_ws/install/sjtu_drone_control/lib/python3.10/site-packages:/root/ros2_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages:/root/ros2_ws/install/drone_area_scanner/lib/python3.10/site-packages:/root/ros2_ws/install/ai_model_node/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/ros2_ws/install/sjtu_drone_description'}, 'shell': False}
+[2.808814] (sjtu_drone_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/root/ros2_ws/build/sjtu_drone_control/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/root/ros2_ws/build/sjtu_drone_control', 'env': {'HOSTNAME': '43f8b5f44e6a', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/ros2_ws/install/sjtu_drone_description/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/root/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/ros2_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': 'host.docker.internal:0.0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/root/ros2_ws/install/sjtu_drone_description:/root/ros2_ws/install/sjtu_drone_control:/root/ros2_ws/install/sjtu_drone_bringup:/root/ros2_ws/install/drone_area_scanner:/root/ros2_ws/install/ai_model_node:/opt/ros/humble', 'PWD': '/root/ros2_ws/build/sjtu_drone_control', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/ros2_ws/build/sjtu_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/sjtu_drone_control/lib/python3.10/site-packages:/root/ros2_ws/install/sjtu_drone_control/lib/python3.10/site-packages:/root/ros2_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages:/root/ros2_ws/install/drone_area_scanner/lib/python3.10/site-packages:/root/ros2_ws/install/ai_model_node/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/ros2_ws/install/sjtu_drone_description'}, 'shell': False}
+[2.834705] (-) TimerEvent: {}
+[2.895488] (sjtu_drone_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.918816] (sjtu_drone_description) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.934850] (-) TimerEvent: {}
+[2.961900] (sjtu_drone_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.033591] (sjtu_drone_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.034959] (-) TimerEvent: {}
+[3.083609] (sjtu_drone_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.135168] (-) TimerEvent: {}
+[3.190663] (sjtu_drone_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.205180] (sjtu_drone_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.220859] (sjtu_drone_bringup) StdoutLine: {'line': b'running develop\n'}
+[3.224037] (sjtu_drone_bringup) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.224359] (sjtu_drone_bringup) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.225139] (ai_model_node) StdoutLine: {'line': b'running develop\n'}
+[3.225511] (ai_model_node) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.225634] (ai_model_node) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.235254] (-) TimerEvent: {}
+[3.243931] (drone_area_scanner) StdoutLine: {'line': b'running develop\n'}
+[3.244979] (drone_area_scanner) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.245152] (drone_area_scanner) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.262258] (sjtu_drone_control) StdoutLine: {'line': b'running develop\n'}
+[3.262693] (sjtu_drone_control) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.262836] (sjtu_drone_control) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.335357] (-) TimerEvent: {}
+[3.435825] (-) TimerEvent: {}
+[3.489871] (sjtu_drone_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[3.491276] (sjtu_drone_bringup) StdoutLine: {'line': b'writing sjtu_drone_bringup.egg-info/PKG-INFO\n'}
+[3.492748] (sjtu_drone_bringup) StdoutLine: {'line': b'writing dependency_links to sjtu_drone_bringup.egg-info/dependency_links.txt\n'}
+[3.493966] (sjtu_drone_bringup) StdoutLine: {'line': b'writing entry points to sjtu_drone_bringup.egg-info/entry_points.txt\n'}
+[3.495080] (sjtu_drone_bringup) StdoutLine: {'line': b'writing requirements to sjtu_drone_bringup.egg-info/requires.txt\n'}
+[3.495948] (ai_model_node) StdoutLine: {'line': b'running egg_info\n'}
+[3.496409] (ai_model_node) StdoutLine: {'line': b'writing ai_model_node.egg-info/PKG-INFO\n'}
+[3.496528] (ai_model_node) StdoutLine: {'line': b'writing dependency_links to ai_model_node.egg-info/dependency_links.txt\n'}
+[3.496664] (ai_model_node) StdoutLine: {'line': b'writing entry points to ai_model_node.egg-info/entry_points.txt\n'}
+[3.496808] (ai_model_node) StdoutLine: {'line': b'writing requirements to ai_model_node.egg-info/requires.txt\n'}
+[3.496897] (ai_model_node) StdoutLine: {'line': b'writing top-level names to ai_model_node.egg-info/top_level.txt\n'}
+[3.498944] (ai_model_node) StdoutLine: {'line': b"reading manifest file 'ai_model_node.egg-info/SOURCES.txt'\n"}
+[3.499927] (sjtu_drone_bringup) StdoutLine: {'line': b'writing top-level names to sjtu_drone_bringup.egg-info/top_level.txt\n'}
+[3.501971] (ai_model_node) StdoutLine: {'line': b"writing manifest file 'ai_model_node.egg-info/SOURCES.txt'\n"}
+[3.504626] (sjtu_drone_bringup) StdoutLine: {'line': b"reading manifest file 'sjtu_drone_bringup.egg-info/SOURCES.txt'\n"}
+[3.504863] (ai_model_node) StdoutLine: {'line': b'running build_ext\n'}
+[3.505197] (ai_model_node) StdoutLine: {'line': b'Creating /root/ros2_ws/install/ai_model_node/lib/python3.10/site-packages/ai-model-node.egg-link (link to .)\n'}
+[3.506243] (drone_area_scanner) StdoutLine: {'line': b'running egg_info\n'}
+[3.507792] (drone_area_scanner) StdoutLine: {'line': b'writing drone_area_scanner.egg-info/PKG-INFO\n'}
+[3.508430] (drone_area_scanner) StdoutLine: {'line': b'writing dependency_links to drone_area_scanner.egg-info/dependency_links.txt\n'}
+[3.508658] (drone_area_scanner) StdoutLine: {'line': b'writing entry points to drone_area_scanner.egg-info/entry_points.txt\n'}
+[3.508836] (drone_area_scanner) StdoutLine: {'line': b'writing requirements to drone_area_scanner.egg-info/requires.txt\n'}
+[3.509087] (drone_area_scanner) StdoutLine: {'line': b'writing top-level names to drone_area_scanner.egg-info/top_level.txt\n'}
+[3.509230] (ai_model_node) StdoutLine: {'line': b'Installing classify_image script to /root/ros2_ws/install/ai_model_node/lib/ai_model_node\n'}
+[3.509343] (sjtu_drone_control) StdoutLine: {'line': b'running egg_info\n'}
+[3.509490] (sjtu_drone_control) StdoutLine: {'line': b'writing sjtu_drone_control.egg-info/PKG-INFO\n'}
+[3.509638] (ai_model_node) StdoutLine: {'line': b'\n'}
+[3.509735] (ai_model_node) StdoutLine: {'line': b'Installed /root/ros2_ws/build/ai_model_node\n'}
+[3.509905] (ai_model_node) StdoutLine: {'line': b'running symlink_data\n'}
+[3.510030] (sjtu_drone_control) StdoutLine: {'line': b'writing dependency_links to sjtu_drone_control.egg-info/dependency_links.txt\n'}
+[3.510135] (ai_model_node) StdoutLine: {'line': b'symbolically linking /root/ros2_ws/build/ai_model_node/resource/ai_model_node -> /root/ros2_ws/install/ai_model_node/share/ament_index/resource_index/packages\n'}
+[3.510253] (sjtu_drone_control) StdoutLine: {'line': b'writing entry points to sjtu_drone_control.egg-info/entry_points.txt\n'}
+[3.510596] (sjtu_drone_control) StdoutLine: {'line': b'writing requirements to sjtu_drone_control.egg-info/requires.txt\n'}
+[3.510726] (sjtu_drone_control) StdoutLine: {'line': b'writing top-level names to sjtu_drone_control.egg-info/top_level.txt\n'}
+[3.511552] (drone_area_scanner) StdoutLine: {'line': b"reading manifest file 'drone_area_scanner.egg-info/SOURCES.txt'\n"}
+[3.512824] (drone_area_scanner) StdoutLine: {'line': b"writing manifest file 'drone_area_scanner.egg-info/SOURCES.txt'\n"}
+[3.514305] (sjtu_drone_control) StdoutLine: {'line': b"reading manifest file 'sjtu_drone_control.egg-info/SOURCES.txt'\n"}
+[3.514731] (ai_model_node) StdoutLine: {'line': b'symbolically linking /root/ros2_ws/build/ai_model_node/package.xml -> /root/ros2_ws/install/ai_model_node/share/ai_model_node\n'}
+[3.516385] (sjtu_drone_bringup) StdoutLine: {'line': b"writing manifest file 'sjtu_drone_bringup.egg-info/SOURCES.txt'\n"}
+[3.516929] (sjtu_drone_control) StdoutLine: {'line': b"writing manifest file 'sjtu_drone_control.egg-info/SOURCES.txt'\n"}
+[3.517201] (drone_area_scanner) StdoutLine: {'line': b'running build_ext\n'}
+[3.518010] (drone_area_scanner) StdoutLine: {'line': b'Creating /root/ros2_ws/install/drone_area_scanner/lib/python3.10/site-packages/drone-area-scanner.egg-link (link to .)\n'}
+[3.518816] (drone_area_scanner) StdoutLine: {'line': b'Installing scanner_node script to /root/ros2_ws/install/drone_area_scanner/lib/drone_area_scanner\n'}
+[3.519260] (drone_area_scanner) StdoutLine: {'line': b'\n'}
+[3.519550] (drone_area_scanner) StdoutLine: {'line': b'Installed /root/ros2_ws/build/drone_area_scanner\n'}
+[3.519670] (drone_area_scanner) StdoutLine: {'line': b'running symlink_data\n'}
+[3.519807] (drone_area_scanner) StdoutLine: {'line': b'symbolically linking /root/ros2_ws/build/drone_area_scanner/resource/drone_area_scanner -> /root/ros2_ws/install/drone_area_scanner/share/ament_index/resource_index/packages\n'}
+[3.520011] (sjtu_drone_control) StdoutLine: {'line': b'running build_ext\n'}
+[3.520239] (sjtu_drone_control) StdoutLine: {'line': b'Creating /root/ros2_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu-drone-control.egg-link (link to .)\n'}
+[3.522066] (sjtu_drone_control) StdoutLine: {'line': b'Installing drone_position_control script to /root/ros2_ws/install/sjtu_drone_control/lib/sjtu_drone_control\n'}
+[3.522506] (sjtu_drone_control) StdoutLine: {'line': b'Installing open_loop_control script to /root/ros2_ws/install/sjtu_drone_control/lib/sjtu_drone_control\n'}
+[3.522765] (sjtu_drone_control) StdoutLine: {'line': b'Installing teleop script to /root/ros2_ws/install/sjtu_drone_control/lib/sjtu_drone_control\n'}
+[3.523016] (sjtu_drone_control) StdoutLine: {'line': b'Installing teleop_joystick script to /root/ros2_ws/install/sjtu_drone_control/lib/sjtu_drone_control\n'}
+[3.523590] (sjtu_drone_control) StdoutLine: {'line': b'\n'}
+[3.523775] (sjtu_drone_control) StdoutLine: {'line': b'Installed /root/ros2_ws/build/sjtu_drone_control\n'}
+[3.523905] (sjtu_drone_control) StdoutLine: {'line': b'running symlink_data\n'}
+[3.524139] (drone_area_scanner) StdoutLine: {'line': b'symbolically linking /root/ros2_ws/build/drone_area_scanner/package.xml -> /root/ros2_ws/install/drone_area_scanner/share/drone_area_scanner\n'}
+[3.524393] (sjtu_drone_control) StdoutLine: {'line': b'symbolically linking /root/ros2_ws/build/sjtu_drone_control/resource/sjtu_drone_control -> /root/ros2_ws/install/sjtu_drone_control/share/ament_index/resource_index/packages\n'}
+[3.524934] (sjtu_drone_control) StdoutLine: {'line': b'symbolically linking /root/ros2_ws/build/sjtu_drone_control/package.xml -> /root/ros2_ws/install/sjtu_drone_control/share/sjtu_drone_control\n'}
+[3.530369] (sjtu_drone_bringup) StdoutLine: {'line': b'running build_ext\n'}
+[3.534902] (sjtu_drone_bringup) StdoutLine: {'line': b'Creating /root/ros2_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages/sjtu-drone-bringup.egg-link (link to .)\n'}
+[3.535303] (sjtu_drone_bringup) StdoutLine: {'line': b'Installing spawn_drone script to /root/ros2_ws/install/sjtu_drone_bringup/lib/sjtu_drone_bringup\n'}
+[3.535542] (sjtu_drone_bringup) StdoutLine: {'line': b'\n'}
+[3.535641] (sjtu_drone_bringup) StdoutLine: {'line': b'Installed /root/ros2_ws/build/sjtu_drone_bringup\n'}
+[3.536049] (-) TimerEvent: {}
+[3.536392] (sjtu_drone_bringup) StdoutLine: {'line': b'running symlink_data\n'}
+[3.536637] (sjtu_drone_bringup) StdoutLine: {'line': b'symbolically linking /root/ros2_ws/build/sjtu_drone_bringup/resource/sjtu_drone_bringup -> /root/ros2_ws/install/sjtu_drone_bringup/share/ament_index/resource_index/packages\n'}
+[3.537022] (sjtu_drone_bringup) StdoutLine: {'line': b'symbolically linking /root/ros2_ws/build/sjtu_drone_bringup/package.xml -> /root/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup\n'}
+[3.537142] (sjtu_drone_bringup) StdoutLine: {'line': b'symbolically linking /root/ros2_ws/build/sjtu_drone_bringup/launch/sjtu_drone_bringup.launch.py -> /root/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/launch\n'}
+[3.537227] (sjtu_drone_bringup) StdoutLine: {'line': b'symbolically linking /root/ros2_ws/build/sjtu_drone_bringup/launch/sjtu_drone_gazebo.launch.py -> /root/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/launch\n'}
+[3.537309] (sjtu_drone_bringup) StdoutLine: {'line': b'symbolically linking /root/ros2_ws/build/sjtu_drone_bringup/rviz/rviz.rviz -> /root/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/rviz\n'}
+[3.537399] (sjtu_drone_bringup) StdoutLine: {'line': b'symbolically linking /root/ros2_ws/build/sjtu_drone_bringup/config/drone.yaml -> /root/ros2_ws/install/sjtu_drone_bringup/share/sjtu_drone_bringup/config\n'}
+[3.589989] (ai_model_node) CommandEnded: {'returncode': 0}
+[3.622923] (ai_model_node) JobEnded: {'identifier': 'ai_model_node', 'rc': 0}
+[3.627917] (drone_area_scanner) CommandEnded: {'returncode': 0}
+[3.630343] (sjtu_drone_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.644308] (-) TimerEvent: {}
+[3.657516] (drone_area_scanner) JobEnded: {'identifier': 'drone_area_scanner', 'rc': 0}
+[3.658149] (sjtu_drone_control) CommandEnded: {'returncode': 0}
+[3.696450] (sjtu_drone_control) JobEnded: {'identifier': 'sjtu_drone_control', 'rc': 0}
+[3.700367] (sjtu_drone_bringup) CommandEnded: {'returncode': 0}
+[3.741532] (sjtu_drone_bringup) JobEnded: {'identifier': 'sjtu_drone_bringup', 'rc': 0}
+[3.744498] (-) TimerEvent: {}
+[3.845323] (-) TimerEvent: {}
+[3.863165] (sjtu_drone_description) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[3.945456] (-) TimerEvent: {}
+[3.982914] (sjtu_drone_description) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[4.045786] (-) TimerEvent: {}
+[4.126429] (sjtu_drone_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[4.137461] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[4.145937] (-) TimerEvent: {}
+[4.175951] (sjtu_drone_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[4.180481] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[4.192634] (sjtu_drone_description) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[4.211889] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[4.213033] (sjtu_drone_description) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[4.214077] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[4.214709] (sjtu_drone_description) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[4.215272] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[4.215460] (sjtu_drone_description) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[4.216045] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[4.216249] (sjtu_drone_description) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[4.216354] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[4.216437] (sjtu_drone_description) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[4.216514] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[4.216596] (sjtu_drone_description) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[4.246075] (-) TimerEvent: {}
+[4.346591] (-) TimerEvent: {}
+[4.447091] (-) TimerEvent: {}
+[4.463951] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[4.465539] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[4.466319] (sjtu_drone_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[4.491790] (sjtu_drone_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[4.510829] (sjtu_drone_description) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[4.516398] (sjtu_drone_description) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[4.547215] (-) TimerEvent: {}
+[4.548131] (sjtu_drone_description) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[4.611481] (sjtu_drone_description) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[4.638143] (sjtu_drone_description) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[4.647478] (-) TimerEvent: {}
+[4.713272] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[4.715180] (sjtu_drone_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[4.747728] (-) TimerEvent: {}
+[4.749995] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[4.764713] (sjtu_drone_description) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[4.791651] (sjtu_drone_description) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[4.847842] (-) TimerEvent: {}
+[4.889503] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[4.897598] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[4.898006] (sjtu_drone_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[4.898180] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[4.898276] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[4.922786] (sjtu_drone_description) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[4.924836] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[4.925279] (sjtu_drone_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[4.925926] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[4.930218] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[4.931765] (sjtu_drone_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[4.947957] (-) TimerEvent: {}
+[5.039052] (sjtu_drone_description) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[5.062211] (-) TimerEvent: {}
+[5.063422] (sjtu_drone_description) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[5.162352] (-) TimerEvent: {}
+[5.166710] (sjtu_drone_description) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[5.192718] (sjtu_drone_description) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[5.262907] (-) TimerEvent: {}
+[5.297039] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[5.302407] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[5.302820] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[5.325375] (sjtu_drone_description) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[5.331457] (sjtu_drone_description) StdoutLine: {'line': b'-- Found gazebo_plugins: 3.7.0 (/opt/ros/humble/share/gazebo_plugins/cmake)\n'}
+[5.363020] (-) TimerEvent: {}
+[5.468928] (-) TimerEvent: {}
+[5.539831] (sjtu_drone_description) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[5.570830] (-) TimerEvent: {}
+[5.599980] (sjtu_drone_description) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[5.664389] (sjtu_drone_description) StdoutLine: {'line': b'-- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)\n'}
+[5.670983] (-) TimerEvent: {}
+[5.681709] (sjtu_drone_description) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[5.771103] (-) TimerEvent: {}
+[5.871594] (-) TimerEvent: {}
+[5.894589] (sjtu_drone_description) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[5.902596] (sjtu_drone_description) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[5.904548] (sjtu_drone_description) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[5.922347] (sjtu_drone_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.971860] (-) TimerEvent: {}
+[6.072696] (-) TimerEvent: {}
+[6.174218] (-) TimerEvent: {}
+[6.178207] (sjtu_drone_description) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.179339] (sjtu_drone_description) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /root/ros2_ws/src/sjtu_drone/sjtu_drone_description/include;$<BUILD_INTERFACE:/root/ros2_ws/src/sjtu_drone/sjtu_drone_description/include>\n'}
+[6.179566] (sjtu_drone_description) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.181603] (sjtu_drone_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.184492] (sjtu_drone_description) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.184710] (sjtu_drone_description) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.185483] (sjtu_drone_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.223366] (sjtu_drone_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.274517] (-) TimerEvent: {}
+[6.334874] (sjtu_drone_description) StdoutLine: {'line': b'-- Generating done\n'}
+[6.339018] (sjtu_drone_description) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/sjtu_drone_description\n'}
+[6.364724] (sjtu_drone_description) CommandEnded: {'returncode': 0}
+[6.368203] (sjtu_drone_description) JobProgress: {'identifier': 'sjtu_drone_description', 'progress': 'build'}
+[6.369857] (sjtu_drone_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/sjtu_drone_description', '--', '-j12', '-l12'], 'cwd': '/root/ros2_ws/build/sjtu_drone_description', 'env': OrderedDict([('HOSTNAME', '43f8b5f44e6a'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/sjtu_drone_description/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/sjtu_drone_description:/root/ros2_ws/install/sjtu_drone_control:/root/ros2_ws/install/sjtu_drone_bringup:/root/ros2_ws/install/drone_area_scanner:/root/ros2_ws/install/ai_model_node:/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/sjtu_drone_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/sjtu_drone_control/lib/python3.10/site-packages:/root/ros2_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages:/root/ros2_ws/install/drone_area_scanner/lib/python3.10/site-packages:/root/ros2_ws/install/ai_model_node/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/sjtu_drone_description:/root/ros2_ws/install/sjtu_drone_control:/root/ros2_ws/install/sjtu_drone_bringup:/root/ros2_ws/install/drone_area_scanner:/root/ros2_ws/install/ai_model_node:/opt/ros/humble')]), 'shell': False}
+[6.374508] (-) TimerEvent: {}
+[6.474869] (sjtu_drone_description) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target plugin_drone\x1b[0m\n'}
+[6.475146] (-) TimerEvent: {}
+[6.575534] (-) TimerEvent: {}
+[6.591069] (sjtu_drone_description) StdoutLine: {'line': b'[100%] Built target plugin_drone\n'}
+[6.619039] (sjtu_drone_description) CommandEnded: {'returncode': 0}
+[6.678867] (-) TimerEvent: {}
+[6.690371] (sjtu_drone_description) JobProgress: {'identifier': 'sjtu_drone_description', 'progress': 'install'}
+[6.709012] (sjtu_drone_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/sjtu_drone_description'], 'cwd': '/root/ros2_ws/build/sjtu_drone_description', 'env': OrderedDict([('HOSTNAME', '43f8b5f44e6a'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/sjtu_drone_description/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', 'host.docker.internal:0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/sjtu_drone_description:/root/ros2_ws/install/sjtu_drone_control:/root/ros2_ws/install/sjtu_drone_bringup:/root/ros2_ws/install/drone_area_scanner:/root/ros2_ws/install/ai_model_node:/opt/ros/humble'), ('PWD', '/root/ros2_ws/build/sjtu_drone_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/ros2_ws/install/sjtu_drone_control/lib/python3.10/site-packages:/root/ros2_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages:/root/ros2_ws/install/drone_area_scanner/lib/python3.10/site-packages:/root/ros2_ws/install/ai_model_node/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/sjtu_drone_description:/root/ros2_ws/install/sjtu_drone_control:/root/ros2_ws/install/sjtu_drone_bringup:/root/ros2_ws/install/drone_area_scanner:/root/ros2_ws/install/ai_model_node:/opt/ros/humble')]), 'shell': False}
+[6.724834] (sjtu_drone_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.725132] (sjtu_drone_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.725226] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/sjtu_drone_description/include/sjtu_drone_description/pid_controller.h\n'}
+[6.736344] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/sjtu_drone_description/include/sjtu_drone_description/plugin_drone.h\n'}
+[6.752867] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/sjtu_drone_description/include/sjtu_drone_description/plugin_drone_private.h\n'}
+[6.770543] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/library_path.sh\n'}
+[6.779021] (-) TimerEvent: {}
+[6.784442] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/library_path.dsv\n'}
+[6.794870] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/database.config\n'}
+[6.815009] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/model.config\n'}
+[6.831934] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/quadrotor_4.dae\n'}
+[6.849967] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/quadrotor_4.stl\n'}
+[6.864955] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/sjtu_drone.sdf\n'}
+[6.879226] (-) TimerEvent: {}
+[6.882976] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/urdf/sjtu_drone.urdf\n'}
+[6.897966] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/urdf/sjtu_drone.urdf.xacro\n'}
+[6.929237] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/worlds/playground.world\n'}
+[6.940012] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/sjtu_drone_description/share/ament_index/resource_index/package_run_dependencies/sjtu_drone_description\n'}
+[6.951892] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/sjtu_drone_description/share/ament_index/resource_index/parent_prefix_path/sjtu_drone_description\n'}
+[6.963410] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/ament_prefix_path.sh\n'}
+[6.978575] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/ament_prefix_path.dsv\n'}
+[6.979374] (-) TimerEvent: {}
+[6.996099] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/path.sh\n'}
+[7.008970] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/environment/path.dsv\n'}
+[7.023008] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.bash\n'}
+[7.033795] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.sh\n'}
+[7.048439] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.zsh\n'}
+[7.065713] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.dsv\n'}
+[7.079869] (-) TimerEvent: {}
+[7.081152] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.dsv\n'}
+[7.096251] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/sjtu_drone_description/share/ament_index/resource_index/packages/sjtu_drone_description\n'}
+[7.110115] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.127402] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.139706] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.154503] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/sjtu_drone_descriptionConfig.cmake\n'}
+[7.169094] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/sjtu_drone_descriptionConfig-version.cmake\n'}
+[7.180093] (-) TimerEvent: {}
+[7.181448] (sjtu_drone_description) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/package.xml\n'}
+[7.199361] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/sjtu_drone_description/lib/libplugin_drone.so\n'}
+[7.200308] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/export_sjtu_drone_descriptionExport.cmake\n'}
+[7.201332] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/sjtu_drone_description/share/sjtu_drone_description/cmake/export_sjtu_drone_descriptionExport-noconfig.cmake\n'}
+[7.203447] (sjtu_drone_description) CommandEnded: {'returncode': 0}
+[7.281701] (-) TimerEvent: {}
+[7.297467] (sjtu_drone_description) JobEnded: {'identifier': 'sjtu_drone_description', 'rc': 0}
+[7.299186] (-) EventReactorShutdown: {}

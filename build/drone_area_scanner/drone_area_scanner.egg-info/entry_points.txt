@@ -1,0 +1,3 @@
+[console_scripts]
+scanner_node = drone_area_scanner.drone_area_scanner_node:main
+

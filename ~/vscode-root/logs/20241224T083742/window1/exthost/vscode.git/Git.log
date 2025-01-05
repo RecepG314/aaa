@@ -1,0 +1,54 @@
+2024-12-24 08:37:56.280 [info] [main] Log level: Info
+2024-12-24 08:37:56.280 [info] [main] Validating found git in: "git"
+2024-12-24 08:37:56.280 [info] [main] Using git "2.34.1" from "git"
+2024-12-24 08:37:56.280 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-24 08:37:56.281 [info] > git rev-parse --show-toplevel [90ms]
+2024-12-24 08:37:56.281 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-24 08:37:56.281 [info] > git rev-parse --show-toplevel [173ms]
+2024-12-24 08:37:56.686 [info] > git rev-parse --git-dir --git-common-dir [366ms]
+2024-12-24 08:37:56.716 [info] [Model][openRepository] Opened repository: /root/ros2_ws/src/sjtu_drone
+2024-12-24 08:37:56.745 [info] > git rev-parse --show-toplevel [4ms]
+2024-12-24 08:37:56.745 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-24 08:37:56.746 [info] > git config --get commit.template [17ms]
+2024-12-24 08:37:56.787 [info] > git rev-parse --show-toplevel [18ms]
+2024-12-24 08:37:56.787 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-24 08:37:56.839 [info] > git rev-parse --show-toplevel [18ms]
+2024-12-24 08:37:56.839 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-24 08:37:56.855 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/ros2 refs/remotes/ros2 [74ms]
+2024-12-24 08:37:56.886 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/ros2_ws/src/sjtu_drone/.git/refs/remotes/origin/ros2'
+2024-12-24 08:37:56.897 [info] > git rev-parse --show-toplevel [18ms]
+2024-12-24 08:37:56.897 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-24 08:37:56.952 [info] > git rev-parse refs/remotes/origin/ros2 [67ms]
+2024-12-24 08:37:57.016 [info] > git rev-parse --show-toplevel [74ms]
+2024-12-24 08:37:57.016 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-24 08:37:57.078 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [76ms]
+2024-12-24 08:37:57.092 [info] > git status -z -uall [115ms]
+2024-12-24 08:37:57.093 [info] > git rev-parse --show-toplevel [16ms]
+2024-12-24 08:37:57.093 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-24 08:37:57.096 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-12-24 08:37:57.213 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/ros2 refs/remotes/ros2 [92ms]
+2024-12-24 08:37:57.286 [info] > git config --local branch.ros2.vscode-merge-base [64ms]
+2024-12-24 08:37:57.294 [info] > git config --get commit.template [102ms]
+2024-12-24 08:37:57.389 [info] > git show --textconv :ai_model_node/ai_model_node/classify_image.py [21ms]
+2024-12-24 08:37:57.389 [info] > git ls-files --stage -- /root/ros2_ws/src/sjtu_drone/ai_model_node/ai_model_node/classify_image.py [11ms]
+2024-12-24 08:37:57.395 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/ros2 refs/remotes/origin/ros2 [101ms]
+2024-12-24 08:37:57.656 [info] > git check-ignore -v -z --stdin [205ms]
+2024-12-24 08:37:57.673 [info] > git merge-base refs/heads/ros2 refs/remotes/origin/ros2 [253ms]
+2024-12-24 08:37:58.101 [info] > git diff --name-status -z --diff-filter=ADMR 4a643e22d7cb0400c69eb0a62c689655d481b4db...refs/remotes/origin/ros2 [380ms]
+2024-12-24 08:37:58.103 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/ros2 refs/remotes/ros2 [489ms]
+2024-12-24 08:37:58.194 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/ros2_ws/src/sjtu_drone/.git/refs/remotes/origin/ros2'
+2024-12-24 08:37:58.226 [info] > git rev-parse refs/remotes/origin/ros2 [31ms]
+2024-12-24 08:37:58.358 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+2024-12-24 08:37:58.439 [info] > git status -z -uall [164ms]
+2024-12-24 08:37:59.224 [info] > git rev-parse --show-toplevel [25ms]
+2024-12-24 08:37:59.224 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-24 08:37:59.714 [info] > git rev-parse --show-toplevel [9ms]
+2024-12-24 08:37:59.714 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-24 08:37:59.859 [info] > git rev-parse --show-toplevel [10ms]
+2024-12-24 08:37:59.859 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-24 08:39:06.825 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/ros2 refs/remotes/ros2 [5ms]
+2024-12-24 08:39:06.825 [info] > git config --get commit.template [19ms]
+2024-12-24 08:39:06.832 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/ros2_ws/src/sjtu_drone/.git/refs/remotes/origin/ros2'
+2024-12-24 08:39:06.834 [info] > git rev-parse refs/remotes/origin/ros2 [2ms]
+2024-12-24 08:39:06.902 [info] > git status -z -uall [45ms]
+2024-12-24 08:39:06.918 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [52ms]

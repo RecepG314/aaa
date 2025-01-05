@@ -1,0 +1,19 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing ai_model_node.egg-info/PKG-INFO
+writing dependency_links to ai_model_node.egg-info/dependency_links.txt
+writing entry points to ai_model_node.egg-info/entry_points.txt
+writing requirements to ai_model_node.egg-info/requires.txt
+writing top-level names to ai_model_node.egg-info/top_level.txt
+reading manifest file 'ai_model_node.egg-info/SOURCES.txt'
+writing manifest file 'ai_model_node.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/ros2_ws/install/ai_model_node/lib/python3.10/site-packages/ai-model-node.egg-link (link to .)
+Installing classify_image script to /root/ros2_ws/install/ai_model_node/lib/ai_model_node
+
+Installed /root/ros2_ws/build/ai_model_node
+running symlink_data
+symbolically linking /root/ros2_ws/build/ai_model_node/resource/ai_model_node -> /root/ros2_ws/install/ai_model_node/share/ament_index/resource_index/packages
+symbolically linking /root/ros2_ws/build/ai_model_node/package.xml -> /root/ros2_ws/install/ai_model_node/share/ai_model_node

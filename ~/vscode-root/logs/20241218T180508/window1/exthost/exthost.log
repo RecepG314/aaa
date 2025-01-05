@@ -1,0 +1,13 @@
+2024-12-18 18:05:10.356 [info] Extension host with pid 705 started
+2024-12-18 18:05:10.356 [info] Skipping acquiring lock for /root/ros2_ws/~/vscode-root/User/workspaceStorage/6b5ebf9f3eb201a3c252ac33296f391a.
+2024-12-18 18:05:10.537 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-12-18 18:05:10.574 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2024-12-18 18:05:11.158 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-12-18 18:05:11.251 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-12-18 18:05:11.674 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-12-18 18:05:11.691 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-12-18 18:05:11.793 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-12-18 18:05:11.907 [info] Eager extensions activated
+2024-12-18 18:05:11.933 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-12-18 18:05:11.936 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-12-18 18:05:12.219 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'

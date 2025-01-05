@@ -1,0 +1,24 @@
+[2.752s] Invoking command in '/root/ros2_ws/build/sjtu_drone_control': PYTHONPATH=/root/ros2_ws/build/sjtu_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/sjtu_drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/sjtu_drone_control/build --no-deps symlink_data --force
+[3.205s] running develop
+[3.205s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.205s]   warnings.warn(
+[3.452s] running egg_info
+[3.452s] writing sjtu_drone_control.egg-info/PKG-INFO
+[3.453s] writing dependency_links to sjtu_drone_control.egg-info/dependency_links.txt
+[3.453s] writing entry points to sjtu_drone_control.egg-info/entry_points.txt
+[3.453s] writing requirements to sjtu_drone_control.egg-info/requires.txt
+[3.453s] writing top-level names to sjtu_drone_control.egg-info/top_level.txt
+[3.457s] reading manifest file 'sjtu_drone_control.egg-info/SOURCES.txt'
+[3.460s] writing manifest file 'sjtu_drone_control.egg-info/SOURCES.txt'
+[3.463s] running build_ext
+[3.463s] Creating /root/ros2_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu-drone-control.egg-link (link to .)
+[3.465s] Installing drone_position_control script to /root/ros2_ws/install/sjtu_drone_control/lib/sjtu_drone_control
+[3.465s] Installing open_loop_control script to /root/ros2_ws/install/sjtu_drone_control/lib/sjtu_drone_control
+[3.465s] Installing teleop script to /root/ros2_ws/install/sjtu_drone_control/lib/sjtu_drone_control
+[3.466s] Installing teleop_joystick script to /root/ros2_ws/install/sjtu_drone_control/lib/sjtu_drone_control
+[3.466s] 
+[3.466s] Installed /root/ros2_ws/build/sjtu_drone_control
+[3.467s] running symlink_data
+[3.467s] symbolically linking /root/ros2_ws/build/sjtu_drone_control/resource/sjtu_drone_control -> /root/ros2_ws/install/sjtu_drone_control/share/ament_index/resource_index/packages
+[3.468s] symbolically linking /root/ros2_ws/build/sjtu_drone_control/package.xml -> /root/ros2_ws/install/sjtu_drone_control/share/sjtu_drone_control
+[3.601s] Invoked command in '/root/ros2_ws/build/sjtu_drone_control' returned '0': PYTHONPATH=/root/ros2_ws/build/sjtu_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/sjtu_drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/sjtu_drone_control/build --no-deps symlink_data --force

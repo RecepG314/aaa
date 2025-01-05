@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing drone_area_scanner.egg-info/PKG-INFO
+writing dependency_links to drone_area_scanner.egg-info/dependency_links.txt
+writing entry points to drone_area_scanner.egg-info/entry_points.txt
+writing requirements to drone_area_scanner.egg-info/requires.txt
+writing top-level names to drone_area_scanner.egg-info/top_level.txt
+reading manifest file 'drone_area_scanner.egg-info/SOURCES.txt'
+writing manifest file 'drone_area_scanner.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/ros2_ws/install/drone_area_scanner/lib/python3.10/site-packages/drone-area-scanner.egg-link (link to .)
+Installing scanner_node script to /root/ros2_ws/install/drone_area_scanner/lib/drone_area_scanner
+
+Installed /root/ros2_ws/build/drone_area_scanner
+running symlink_data
+symbolically linking /root/ros2_ws/build/drone_area_scanner/resource/drone_area_scanner -> /root/ros2_ws/install/drone_area_scanner/share/ament_index/resource_index/packages
+symbolically linking /root/ros2_ws/build/drone_area_scanner/package.xml -> /root/ros2_ws/install/drone_area_scanner/share/drone_area_scanner

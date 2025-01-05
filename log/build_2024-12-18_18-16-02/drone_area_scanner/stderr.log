@@ -1,0 +1,4 @@
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:355: UserWarning: Unbuilt egg for ai-model-node 0.0.1 (/root/ros2_ws/build/ai_model_node)
+  self.local_index = Environment(self.shadow_path + sys.path)

@@ -1,0 +1,21 @@
+2024-12-17 14:52:05.428 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-12-17 14:52:05.428 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-12-17 14:52:05.428 [info] Experiment 'pythonTestAdapter' is active
+2024-12-17 14:52:05.428 [warning] Dir "/root/ros2_ws/.pixi/envs" is not watchable (directory does not exist)
+2024-12-17 14:52:05.462 [info] Starting Environment refresh
+2024-12-17 14:52:05.480 [info] > hatch env show --json
+2024-12-17 14:52:05.480 [info] cwd: .
+2024-12-17 14:52:05.495 [info] Environments refresh finished (event): 33 milliseconds
+2024-12-17 14:52:05.495 [info] Environments refresh paths discovered: 33 milliseconds
+2024-12-17 14:52:05.498 [info] Environment refresh took 36 milliseconds
+2024-12-17 14:52:05.503 [info] > pyenv which python
+2024-12-17 14:52:05.503 [info] cwd: .
+2024-12-17 14:52:06.145 [info] Python interpreter path: /bin/python3
+2024-12-17 14:52:06.944 [info] Starting Pylance language server.
+2024-12-17 16:26:05.939 [info] Discover tests for workspace name: ros2_ws - uri: /root/ros2_ws/src/sjtu_drone/ai_model_node/ai_model_node/classify_image.py
+2024-12-17 16:30:36.681 [info] Discover tests for workspace name: ros2_ws - uri: /root/ros2_ws/src/sjtu_drone/drone_area_scanner/drone_area_scanner/drone_area_scanner_node.py
+2024-12-17 16:31:22.342 [info] Discover tests for workspace name: ros2_ws - uri: /root/ros2_ws/src/sjtu_drone/drone_area_scanner/drone_area_scanner/drone_area_scanner_node.py
+2024-12-17 16:58:47.793 [info] Discover tests for workspace name: ros2_ws - uri: /root/ros2_ws/src/sjtu_drone/ai_model_node/ai_model_node/classify_image.py
+2024-12-17 17:01:28.366 [info] Discover tests for workspace name: ros2_ws - uri: /root/ros2_ws/src/sjtu_drone/ai_model_node/ai_model_node/classify_image.py
+2024-12-17 17:56:41.241 [info] Discover tests for workspace name: ros2_ws - uri: /root/ros2_ws/src/sjtu_drone/ai_model_node/ai_model_node/classify_image.py
+2024-12-17 18:31:39.629 [info] Discover tests for workspace name: ros2_ws - uri: /root/ros2_ws/src/sjtu_drone/ai_model_node/ai_model_node/classify_image.py

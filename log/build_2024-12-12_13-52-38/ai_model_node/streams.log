@@ -1,0 +1,24 @@
+[1.314s] Invoking command in '/root/ros2_ws/src/sjtu_drone/ai_model_node': PYTHONPATH=/root/ros2_ws/build/ai_model_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/ai_model_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ai_model_node build --build-base /root/ros2_ws/build/ai_model_node/build install --record /root/ros2_ws/build/ai_model_node/install.log --single-version-externally-managed install_data
+[1.549s] running egg_info
+[1.550s] writing ../../../build/ai_model_node/ai_model_node.egg-info/PKG-INFO
+[1.550s] writing dependency_links to ../../../build/ai_model_node/ai_model_node.egg-info/dependency_links.txt
+[1.551s] writing entry points to ../../../build/ai_model_node/ai_model_node.egg-info/entry_points.txt
+[1.551s] writing requirements to ../../../build/ai_model_node/ai_model_node.egg-info/requires.txt
+[1.551s] writing top-level names to ../../../build/ai_model_node/ai_model_node.egg-info/top_level.txt
+[1.553s] reading manifest file '../../../build/ai_model_node/ai_model_node.egg-info/SOURCES.txt'
+[1.555s] writing manifest file '../../../build/ai_model_node/ai_model_node.egg-info/SOURCES.txt'
+[1.555s] running build
+[1.555s] running build_py
+[1.555s] copying ai_model_node/classify_image.py -> /root/ros2_ws/build/ai_model_node/build/lib/ai_model_node
+[1.556s] running install
+[1.556s] running install_lib
+[1.558s] copying /root/ros2_ws/build/ai_model_node/build/lib/ai_model_node/classify_image.py -> /root/ros2_ws/install/ai_model_node/lib/python3.10/site-packages/ai_model_node
+[1.558s] byte-compiling /root/ros2_ws/install/ai_model_node/lib/python3.10/site-packages/ai_model_node/classify_image.py to classify_image.cpython-310.pyc
+[1.559s] running install_data
+[1.559s] running install_egg_info
+[1.561s] removing '/root/ros2_ws/install/ai_model_node/lib/python3.10/site-packages/ai_model_node-0.0.1-py3.10.egg-info' (and everything under it)
+[1.561s] Copying ../../../build/ai_model_node/ai_model_node.egg-info to /root/ros2_ws/install/ai_model_node/lib/python3.10/site-packages/ai_model_node-0.0.1-py3.10.egg-info
+[1.563s] running install_scripts
+[1.588s] Installing classify_image script to /root/ros2_ws/install/ai_model_node/lib/ai_model_node
+[1.589s] writing list of installed files to '/root/ros2_ws/build/ai_model_node/install.log'
+[1.620s] Invoked command in '/root/ros2_ws/src/sjtu_drone/ai_model_node' returned '0': PYTHONPATH=/root/ros2_ws/build/ai_model_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/ai_model_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ai_model_node build --build-base /root/ros2_ws/build/ai_model_node/build install --record /root/ros2_ws/build/ai_model_node/install.log --single-version-externally-managed install_data

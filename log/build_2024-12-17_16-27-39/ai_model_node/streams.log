@@ -1,0 +1,19 @@
+[3.231s] Invoking command in '/root/ros2_ws/build/ai_model_node': PS1=(my_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/root/ros2_ws/build/ai_model_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/ai_model_node/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(my_env) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/ai_model_node/build --no-deps symlink_data
+[3.749s] running develop
+[3.752s] /root/python_test/my_env/lib/python3.10/site-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.752s]   warnings.warn(
+[4.072s] running egg_info
+[4.072s] writing ai_model_node.egg-info/PKG-INFO
+[4.073s] writing dependency_links to ai_model_node.egg-info/dependency_links.txt
+[4.073s] writing entry points to ai_model_node.egg-info/entry_points.txt
+[4.073s] writing requirements to ai_model_node.egg-info/requires.txt
+[4.074s] writing top-level names to ai_model_node.egg-info/top_level.txt
+[4.077s] reading manifest file 'ai_model_node.egg-info/SOURCES.txt'
+[4.079s] writing manifest file 'ai_model_node.egg-info/SOURCES.txt'
+[4.083s] running build_ext
+[4.086s] Creating /root/ros2_ws/install/ai_model_node/lib/python3.10/site-packages/ai-model-node.egg-link (link to .)
+[4.096s] Installing classify_image script to /root/ros2_ws/install/ai_model_node/lib/ai_model_node
+[4.101s] 
+[4.101s] Installed /root/ros2_ws/build/ai_model_node
+[4.101s] running symlink_data
+[4.178s] Invoked command in '/root/ros2_ws/build/ai_model_node' returned '0': PS1=(my_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/root/ros2_ws/build/ai_model_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/ai_model_node/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(my_env) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/ai_model_node/build --no-deps symlink_data

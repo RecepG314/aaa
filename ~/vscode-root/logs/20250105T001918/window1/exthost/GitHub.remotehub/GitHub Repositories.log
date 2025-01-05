@@ -1,0 +1,4 @@
+2025-01-05 00:20:01.581 [warning] Running on the desktop; workspaceId=6b5ebf9f3eb201a3c252ac33296f391a; storageUri=vscode-userdata:/root/ros2_ws/~/vscode-root/User/globalStorage/github.remotehub
+2025-01-05 00:20:01.581 [info] [    2] ChangeStore.getWorkspacesWithChanges()
+2025-01-05 00:20:01.581 [info] [    2] ChangeStore.getWorkspacesWithChanges() took 0 ms
+2025-01-05 00:20:10.717 [info] [    6] GitHub.ensureAuthenticated

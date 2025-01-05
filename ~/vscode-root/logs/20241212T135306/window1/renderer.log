@@ -1,0 +1,7 @@
+2024-12-12 13:53:07.954 [info] Started local extension host with pid 580.
+2024-12-12 13:53:10.004 [error] Error: ENOENT: no such file or directory, stat '/root/.gazebo/models/wheat/meshes/Map #30.png': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/root/.gazebo/models/wheat/meshes/Map #30.png'
+	at Ji.e (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:9057)
+	at Object.stat (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7007)
+2024-12-12 13:53:11.878 [info] [perf] Render performance baseline is 21ms
+2024-12-12 13:53:24.008 [info] Started local extension host with pid 981.
+2024-12-12 13:53:26.651 [info] [perf] Render performance baseline is 54ms

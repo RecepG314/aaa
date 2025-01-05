@@ -1,0 +1,23 @@
+2024-12-09 22:31:39.161 [info] Starting Python Locator /root/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python-env-tools/bin/pet server
+2024-12-09 22:31:39.861 [info] Discovered env: /bin/python3
+2024-12-09 22:31:39.862 [info] Discovered env: /usr/bin/python3
+2024-12-09 22:31:39.867 [info] Discovered env: /usr/bin/python3.10
+2024-12-09 22:31:39.868 [info] Discovered env: /bin/python3.10
+2024-12-09 22:31:39.874 [info] Locator Conda took 125.077982ms
+2024-12-09 22:31:39.874 [info] Locator Homebrew took 1.874425ms
+2024-12-09 22:31:39.874 [info] Locator LinuxGlobal took 81.041356ms
+2024-12-09 22:31:39.874 [info] Locator PipEnv took 17.24µs
+2024-12-09 22:31:39.875 [info] Locator Poetry took 759.498µs
+2024-12-09 22:31:39.875 [info] Locator PyEnv took 19.251873ms
+2024-12-09 22:31:39.875 [info] Locator Venv took 119.169µs
+2024-12-09 22:31:39.875 [info] Locator VirtualEnv took 1.303617ms
+2024-12-09 22:31:39.876 [info] Locator VirtualEnvWrapper took 16.253µs
+2024-12-09 22:31:39.876 [info] Locator GlobalVirtualEnvs took 3.27933ms
+2024-12-09 22:31:39.876 [info] Locator Locators took 125.762817ms
+2024-12-09 22:31:39.876 [info] Locator Path took 60.280466ms
+2024-12-09 22:31:39.877 [info] Locator Workspaces took 82.235µs
+2024-12-09 22:31:39.881 [info] Refresh completed in 125ms
+2024-12-09 22:31:39.938 [info] Resolved /bin/python3
+2024-12-09 22:31:40.145 [info] Resolved /usr/bin/python3
+2024-12-09 22:31:40.159 [info] Resolved /usr/bin/python3.10
+2024-12-09 22:31:40.159 [info] Resolved /bin/python3.10

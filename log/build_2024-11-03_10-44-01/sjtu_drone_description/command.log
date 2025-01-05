@@ -1,0 +1,6 @@
+Invoking command in '/root/ros2_ws/build/sjtu_drone_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/sjtu_drone/sjtu_drone_description -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/sjtu_drone_description
+Invoked command in '/root/ros2_ws/build/sjtu_drone_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/sjtu_drone/sjtu_drone_description -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/sjtu_drone_description
+Invoking command in '/root/ros2_ws/build/sjtu_drone_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/sjtu_drone_description -- -j12 -l12
+Invoked command in '/root/ros2_ws/build/sjtu_drone_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/sjtu_drone_description -- -j12 -l12
+Invoking command in '/root/ros2_ws/build/sjtu_drone_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/sjtu_drone_description
+Invoked command in '/root/ros2_ws/build/sjtu_drone_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/sjtu_drone_description

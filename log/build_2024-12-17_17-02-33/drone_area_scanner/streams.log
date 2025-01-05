@@ -1,0 +1,19 @@
+[3.431s] Invoking command in '/root/ros2_ws/build/drone_area_scanner': PS1=(my_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/root/ros2_ws/build/drone_area_scanner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/drone_area_scanner/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(my_env) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/drone_area_scanner/build --no-deps symlink_data
+[4.036s] running develop
+[4.036s] /root/python_test/my_env/lib/python3.10/site-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.036s]   warnings.warn(
+[4.359s] running egg_info
+[4.360s] writing drone_area_scanner.egg-info/PKG-INFO
+[4.362s] writing dependency_links to drone_area_scanner.egg-info/dependency_links.txt
+[4.362s] writing entry points to drone_area_scanner.egg-info/entry_points.txt
+[4.364s] writing requirements to drone_area_scanner.egg-info/requires.txt
+[4.364s] writing top-level names to drone_area_scanner.egg-info/top_level.txt
+[4.366s] reading manifest file 'drone_area_scanner.egg-info/SOURCES.txt'
+[4.367s] writing manifest file 'drone_area_scanner.egg-info/SOURCES.txt'
+[4.374s] running build_ext
+[4.377s] Creating /root/ros2_ws/install/drone_area_scanner/lib/python3.10/site-packages/drone-area-scanner.egg-link (link to .)
+[4.378s] Installing scanner_node script to /root/ros2_ws/install/drone_area_scanner/lib/drone_area_scanner
+[4.379s] 
+[4.379s] Installed /root/ros2_ws/build/drone_area_scanner
+[4.379s] running symlink_data
+[4.449s] Invoked command in '/root/ros2_ws/build/drone_area_scanner' returned '0': PS1=(my_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/root/ros2_ws/build/drone_area_scanner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/drone_area_scanner/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(my_env) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/drone_area_scanner/build --no-deps symlink_data

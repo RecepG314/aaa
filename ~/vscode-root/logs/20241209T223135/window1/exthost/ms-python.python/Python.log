@@ -1,0 +1,38 @@
+2024-12-09 22:31:38.871 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-12-09 22:31:38.871 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-12-09 22:31:38.871 [info] Experiment 'pythonTestAdapter' is active
+2024-12-09 22:31:38.886 [warning] Dir "/root/ros2_ws/src/.pixi/envs" is not watchable (directory does not exist)
+2024-12-09 22:31:39.131 [info] Starting Environment refresh
+2024-12-09 22:31:39.131 [info] Searching for interpreters in posix paths locator
+2024-12-09 22:31:39.142 [info] Searching for pyenv environments
+2024-12-09 22:31:39.142 [info] Searching for conda environments
+2024-12-09 22:31:39.142 [info] Searching for global virtual environments
+2024-12-09 22:31:39.142 [info] Searching for custom virtual environments
+2024-12-09 22:31:39.164 [info] pyenv is not installed
+2024-12-09 22:31:39.164 [info] Finished searching for pyenv environments: 30 milliseconds
+2024-12-09 22:31:39.164 [info] Finished searching for custom virtual envs: 27 milliseconds
+2024-12-09 22:31:39.172 [info] > conda info --json
+2024-12-09 22:31:39.179 [info] > hatch env show --json
+2024-12-09 22:31:39.179 [info] cwd: .
+2024-12-09 22:31:39.213 [info] > pyenv which python
+2024-12-09 22:31:39.214 [info] cwd: .
+2024-12-09 22:31:39.214 [info] Finished searching for global virtual envs: 78 milliseconds
+2024-12-09 22:31:39.729 [info] Found: /bin/python3 --> /bin/python3.10
+2024-12-09 22:31:39.766 [info] Found: /bin/python3.10 --> /bin/python3.10
+2024-12-09 22:31:39.838 [info] Found: /usr/bin/python3 --> /usr/bin/python3.10
+2024-12-09 22:31:39.839 [info] Found: /usr/bin/python3.10 --> /usr/bin/python3.10
+2024-12-09 22:31:39.886 [info] Finished searching for interpreters in posix paths locator: 757 milliseconds
+2024-12-09 22:31:39.886 [info] > /bin/python3 -I ~/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/interpreterInfo.py
+2024-12-09 22:31:40.151 [info] > /usr/bin/python3 -I ~/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/interpreterInfo.py
+2024-12-09 22:31:40.151 [info] Environments refresh paths discovered (event): 1025 milliseconds
+2024-12-09 22:31:40.151 [info] Environments refresh paths discovered: 1026 milliseconds
+2024-12-09 22:31:40.188 [info] Environments refresh finished (event): 1063 milliseconds
+2024-12-09 22:31:40.201 [info] Environment refresh took 1075 milliseconds
+2024-12-09 22:31:40.216 [info] Python interpreter path: /bin/python3
+2024-12-09 22:31:40.234 [info] > /usr/bin/python3.10 -I ~/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/interpreterInfo.py
+2024-12-09 22:31:40.236 [info] > /bin/python3.10 -I ~/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/interpreterInfo.py
+2024-12-09 22:31:40.860 [info] Starting Pylance language server.
+2024-12-09 23:10:01.114 [info] Discover tests for workspace name: src - uri: /root/ros2_ws/src/sjtu_drone/drone_area_scanner/drone_area_scanner/drone_area_scanner_node.py
+2024-12-09 23:10:21.858 [info] Discover tests for workspace name: src - uri: /root/ros2_ws/src/sjtu_drone/drone_area_scanner/drone_area_scanner/drone_area_scanner_node.py
+2024-12-09 23:20:49.177 [info] Discover tests for workspace name: src - uri: /root/ros2_ws/src/sjtu_drone/drone_area_scanner/drone_area_scanner/drone_area_scanner_node.py
+2024-12-09 23:29:37.736 [info] Discover tests for workspace name: src - uri: /root/ros2_ws/src/sjtu_drone/drone_area_scanner/drone_area_scanner/drone_area_scanner_node.py

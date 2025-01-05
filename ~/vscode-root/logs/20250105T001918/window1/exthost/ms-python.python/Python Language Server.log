@@ -1,0 +1,41 @@
+2025-01-05 00:19:24.659 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.1)
+2025-01-05 00:19:25.597 [info] [Info  - 12:19:25 AM] (492) Server root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-05 00:19:25.597 [info] [Info  - 12:19:25 AM] (492) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2025-01-05 00:19:25.598 [info] [Info  - 12:19:25 AM] (492) Starting service instance "ros2_ws"
+2025-01-05 00:19:25.732 [info] [Info  - 12:19:25 AM] (492) Setting environmentName for service "ros2_ws": "3.10.12 (my_env venv)"
+2025-01-05 00:19:25.736 [info] [Info  - 12:19:25 AM] (492) Setting pythonPath for service "ros2_ws": "/root/python_test/my_env/bin/python"
+2025-01-05 00:19:25.740 [info] [Info  - 12:19:25 AM] (492) No include entries specified; assuming /root/ros2_ws
+2025-01-05 00:19:25.751 [info] [Info  - 12:19:25 AM] (492) Auto-excluding **/node_modules
+2025-01-05 00:19:25.751 [info] [Info  - 12:19:25 AM] (492) Auto-excluding **/__pycache__
+2025-01-05 00:19:25.752 [info] [Info  - 12:19:25 AM] (492) Auto-excluding **/.*
+2025-01-05 00:19:25.791 [info] [Info  - 12:19:25 AM] (492) Assuming Python version 3.10.12.final.0
+2025-01-05 00:19:28.098 [info] [Info  - 12:19:28 AM] (492) Found 102 source files
+2025-01-05 00:19:29.220 [info] [Info  - 12:19:29 AM] (492) Background analysis(1) root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-05 00:19:29.221 [info] [Info  - 12:19:29 AM] (492) Background analysis(1) started
+2025-01-05 00:19:29.222 [info] [Info  - 12:19:29 AM] (492) Indexer background runner(2) root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-01-05 00:19:29.222 [info] [Info  - 12:19:29 AM] (492) Indexing(2) started
+2025-01-05 00:19:31.789 [info] [Info  - 12:19:31 AM] (492) [IDX(2)] Long operation: scan packages file:///root/ros2_ws (3064ms)
+2025-01-05 00:19:31.790 [info] [Info  - 12:19:31 AM] (492) scanned(2) 244 files over 1 exec env
+2025-01-05 00:19:32.289 [info] [Info  - 12:19:32 AM] (492) indexed(2) 244 files over 1 exec env
+2025-01-05 00:19:32.359 [info] [Info  - 12:19:32 AM] (492) Indexing finished(2).
+2025-01-05 00:19:32.611 [info] [Info  - 12:19:32 AM] (492) [BG(1)] Long operation: SemanticTokens full at file:///root/ros2_ws/src/sjtu_drone/ai_model_node/ai_model_node/classify_image.py (3375ms)
+2025-01-05 00:20:01.131 [info] [Info  - 12:20:01 AM] Server process exited successfully
+2025-01-05 00:20:01.740 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.1)
+2025-01-05 00:20:01.876 [info] [Info  - 12:20:01 AM] (688) Server root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-05 00:20:01.877 [info] [Info  - 12:20:01 AM] (688) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2025-01-05 00:20:01.883 [info] [Info  - 12:20:01 AM] (688) Starting service instance "ros2_ws"
+2025-01-05 00:20:01.937 [info] [Info  - 12:20:01 AM] (688) Setting environmentName for service "ros2_ws": "3.10.12 (my_env venv)"
+2025-01-05 00:20:01.938 [info] [Info  - 12:20:01 AM] (688) Setting pythonPath for service "ros2_ws": "/root/python_test/my_env/bin/python"
+2025-01-05 00:20:01.939 [info] [Info  - 12:20:01 AM] (688) No include entries specified; assuming /root/ros2_ws
+2025-01-05 00:20:01.940 [info] [Info  - 12:20:01 AM] (688) Auto-excluding **/node_modules
+2025-01-05 00:20:01.941 [info] [Info  - 12:20:01 AM] (688) Auto-excluding **/__pycache__
+2025-01-05 00:20:01.942 [info] [Info  - 12:20:01 AM] (688) Auto-excluding **/.*
+2025-01-05 00:20:01.964 [info] [Info  - 12:20:01 AM] (688) Assuming Python version 3.10.12.final.0
+2025-01-05 00:20:02.150 [info] [Info  - 12:20:02 AM] (688) Found 102 source files
+2025-01-05 00:20:02.536 [info] [Info  - 12:20:02 AM] (688) Background analysis(1) root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2025-01-05 00:20:02.538 [info] [Info  - 12:20:02 AM] (688) Background analysis(1) started
+2025-01-05 00:20:02.785 [info] [Info  - 12:20:02 AM] (688) Indexer background runner(2) root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2025-01-05 00:20:02.785 [info] [Info  - 12:20:02 AM] (688) Indexing(2) started
+2025-01-05 00:20:03.604 [info] [Info  - 12:20:03 AM] (688) scanned(2) 244 files over 1 exec env
+2025-01-05 00:20:03.851 [info] [Info  - 12:20:03 AM] (688) indexed(2) 244 files over 1 exec env
+2025-01-05 00:20:03.942 [info] [Info  - 12:20:03 AM] (688) Indexing finished(2).

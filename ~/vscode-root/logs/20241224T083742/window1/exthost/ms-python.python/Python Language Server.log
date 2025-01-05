@@ -1,0 +1,28 @@
+2024-12-24 08:37:57.446 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.0)
+2024-12-24 08:37:59.213 [info] [Info  - 8:37:59 AM] (1973) Server root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2024-12-24 08:37:59.224 [info] [Info  - 8:37:59 AM] (1973) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2024-12-24 08:37:59.227 [info] [Info  - 8:37:59 AM] (1973) Starting service instance "ros2_ws"
+2024-12-24 08:37:59.553 [info] [Info  - 8:37:59 AM] (1973) Setting environmentName for service "ros2_ws": "3.10.12 (my_env venv)"
+2024-12-24 08:37:59.554 [info] [Info  - 8:37:59 AM] (1973) Setting pythonPath for service "ros2_ws": "/root/python_test/my_env/bin/python"
+2024-12-24 08:37:59.558 [info] [Info  - 8:37:59 AM] (1973) No include entries specified; assuming /root/ros2_ws
+2024-12-24 08:37:59.560 [info] [Info  - 8:37:59 AM] (1973) Auto-excluding **/node_modules
+2024-12-24 08:37:59.561 [info] [Info  - 8:37:59 AM] (1973) Auto-excluding **/__pycache__
+2024-12-24 08:37:59.561 [info] [Info  - 8:37:59 AM] (1973) Auto-excluding **/.*
+2024-12-24 08:37:59.713 [info] [Info  - 8:37:59 AM] (1973) Assuming Python version 3.10.12.final.0
+2024-12-24 08:38:02.014 [info] [Info  - 8:38:02 AM] (1973) Found 101 source files
+2024-12-24 08:38:03.153 [info] [Info  - 8:38:03 AM] (1973) Background analysis(1) root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2024-12-24 08:38:03.153 [info] [Info  - 8:38:03 AM] (1973) Background analysis(1) started
+2024-12-24 08:38:04.120 [info] [Info  - 8:38:04 AM] (1973) Indexer background runner(2) root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2024-12-24 08:38:04.120 [info] [Info  - 8:38:04 AM] (1973) Indexing(2) started
+2024-12-24 08:38:10.574 [info] [Info  - 8:38:10 AM] (1973) [IDX(2)] Long operation: scan packages file:///root/ros2_ws (5764ms)
+2024-12-24 08:38:10.574 [info] [Info  - 8:38:10 AM] (1973) scanned(2) 244 files over 1 exec env
+2024-12-24 08:38:14.767 [info] [Info  - 8:38:14 AM] (1973) [IDX(2)] Long operation: indexing: file:///root/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist/typeshed-fallback/stubs/networkx/networkx/__init__.pyi (2615ms)
+2024-12-24 08:38:17.512 [info] [Info  - 8:38:17 AM] (1973) [BG(1)] Long operation: checking: file:///root/ros2_ws/src/sjtu_drone/ai_model_node/ai_model_node/classify_image.py (10600ms)
+2024-12-24 08:38:17.513 [info] [Info  - 8:38:17 AM] (1973) [BG(1)] Long operation: analyzing: file:///root/ros2_ws/src/sjtu_drone/ai_model_node/ai_model_node/classify_image.py (10609ms)
+2024-12-24 08:38:19.905 [info] [Info  - 8:38:19 AM] (1973) [IDX(2)] Long operation: index execution environment file:///root/ros2_ws (7775ms)
+2024-12-24 08:38:19.930 [info] [Info  - 8:38:19 AM] (1973) [IDX(2)] Long operation: index packages file:///root/ros2_ws (8270ms)
+2024-12-24 08:38:19.931 [info] [Info  - 8:38:19 AM] (1973) indexed(2) 244 files over 1 exec env
+2024-12-24 08:38:20.273 [info] [Info  - 8:38:20 AM] (1973) Indexing finished(2).
+2024-12-24 08:38:56.642 [info] [Info  - 8:38:56 AM] (1973) Found 102 source files
+2024-12-24 08:39:02.525 [info] [Info  - 8:39:02 AM] (1973) [BG(1)] Long operation: checking: file:///root/ros2_ws/src/sjtu_drone/ai_model_node/ai_model_node/classify_image.py (4924ms)
+2024-12-24 08:39:02.526 [info] [Info  - 8:39:02 AM] (1973) [BG(1)] Long operation: analyzing: file:///root/ros2_ws/src/sjtu_drone/ai_model_node/ai_model_node/classify_image.py (4928ms)

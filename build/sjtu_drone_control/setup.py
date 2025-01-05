@@ -1,0 +1,1 @@
+/root/ros2_ws/src/sjtu_drone/sjtu_drone_control/setup.py

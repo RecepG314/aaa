@@ -1,0 +1,6 @@
+2024-12-10 08:19:20.908 [info] Started local extension host with pid 7055.
+2024-12-10 08:19:25.447 [info] [perf] Render performance baseline is 59ms
+2024-12-10 08:19:51.159 [info] Started local extension host with pid 7106.
+2024-12-10 08:19:57.588 [info] [perf] Render performance baseline is 92ms
+2024-12-10 08:20:12.788 [error] Uncaught TypeError: Failed to fetch dynamically imported module: vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/services/textMate/browser/backgroundTokenization/worker/textMateTokenizationWorker.workerMain.js#TextMateWorker
+2024-12-10 08:20:13.931 [error] An unknown error occurred. Please consult the log for more details.

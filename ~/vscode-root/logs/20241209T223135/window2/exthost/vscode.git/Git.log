@@ -1,0 +1,45 @@
+2024-12-10 08:19:23.891 [info] [main] Log level: Info
+2024-12-10 08:19:23.891 [info] [main] Validating found git in: "git"
+2024-12-10 08:19:23.891 [info] [main] Using git "2.34.1" from "git"
+2024-12-10 08:19:23.891 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-10 08:19:23.891 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-12-10 08:20:02.406 [info] [main] Log level: Info
+2024-12-10 08:20:02.406 [info] [main] Validating found git in: "git"
+2024-12-10 08:20:02.406 [info] [main] Using git "2.34.1" from "git"
+2024-12-10 08:20:02.406 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-10 08:20:02.406 [info] > git rev-parse --show-toplevel [29ms]
+2024-12-10 08:20:02.406 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-10 08:20:02.416 [info] > git rev-parse --show-toplevel [3ms]
+2024-12-10 08:20:02.417 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-10 08:20:02.450 [info] > git rev-parse --show-toplevel [5ms]
+2024-12-10 08:20:02.450 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-10 08:20:02.472 [info] > git rev-parse --show-toplevel [5ms]
+2024-12-10 08:20:02.473 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-10 08:20:02.482 [info] > git rev-parse --show-toplevel [3ms]
+2024-12-10 08:20:02.482 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-10 08:20:02.493 [info] > git rev-parse --show-toplevel [5ms]
+2024-12-10 08:20:02.493 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-10 08:20:02.498 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-12-10 08:20:11.299 [info] > git rev-parse --show-toplevel [38ms]
+2024-12-10 08:20:11.314 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-12-10 08:20:11.350 [info] [Model][openRepository] Opened repository: /root/ros2_ws/src/sjtu_drone
+2024-12-10 08:20:11.379 [info] > git config --get commit.template [12ms]
+2024-12-10 08:20:11.393 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/ros2 refs/remotes/ros2 [17ms]
+2024-12-10 08:20:11.402 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/ros2_ws/src/sjtu_drone/.git/refs/remotes/origin/ros2'
+2024-12-10 08:20:11.406 [info] > git rev-parse refs/remotes/origin/ros2 [4ms]
+2024-12-10 08:20:11.436 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2024-12-10 08:20:11.539 [info] > git status -z -uall [123ms]
+2024-12-10 08:20:11.611 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/ros2 refs/remotes/ros2 [10ms]
+2024-12-10 08:20:11.629 [info] > git config --get commit.template [19ms]
+2024-12-10 08:20:11.630 [info] > git config --local branch.ros2.vscode-merge-base [6ms]
+2024-12-10 08:20:11.825 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/ros2 refs/remotes/ros2 [172ms]
+2024-12-10 08:20:11.826 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/ros2 refs/remotes/origin/ros2 [185ms]
+2024-12-10 08:20:12.847 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/ros2_ws/src/sjtu_drone/.git/refs/remotes/origin/ros2'
+2024-12-10 08:20:12.859 [info] > git merge-base refs/heads/ros2 refs/remotes/origin/ros2 [1013ms]
+2024-12-10 08:20:13.266 [info] > git diff --name-status -z --diff-filter=ADMR 4a643e22d7cb0400c69eb0a62c689655d481b4db...refs/remotes/origin/ros2 [391ms]
+2024-12-10 08:20:13.268 [info] > git rev-parse refs/remotes/origin/ros2 [421ms]
+2024-12-10 08:20:13.476 [info] > git status -z -uall [194ms]
+2024-12-10 08:20:13.481 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [187ms]
+2024-12-10 08:20:13.866 [info] > git check-ignore -v -z --stdin [331ms]
+2024-12-10 08:20:13.877 [info] > git show --textconv :drone_area_scanner/drone_area_scanner/drone_area_scanner_node.py [327ms]
+2024-12-10 08:20:13.878 [info] > git ls-files --stage -- /root/ros2_ws/src/sjtu_drone/drone_area_scanner/drone_area_scanner/drone_area_scanner_node.py [306ms]

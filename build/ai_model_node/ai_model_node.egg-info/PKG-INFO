@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ai-model-node
+Version: 0.0.1
+Summary: A ROS2 package for AI image classification
+Home-page: UNKNOWN
+Maintainer: your_name
+Maintainer-email: your_email@example.com
+License: License declaration
+Platform: UNKNOWN
+Requires-Python: >=3.10
+
+UNKNOWN
+

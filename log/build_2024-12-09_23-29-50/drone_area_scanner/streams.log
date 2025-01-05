@@ -1,0 +1,24 @@
+[2.606s] Invoking command in '/root/ros2_ws/src/sjtu_drone/drone_area_scanner': PYTHONPATH=/root/ros2_ws/build/drone_area_scanner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/drone_area_scanner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/drone_area_scanner build --build-base /root/ros2_ws/build/drone_area_scanner/build install --record /root/ros2_ws/build/drone_area_scanner/install.log --single-version-externally-managed install_data
+[3.074s] running egg_info
+[3.078s] writing ../../../build/drone_area_scanner/drone_area_scanner.egg-info/PKG-INFO
+[3.078s] writing dependency_links to ../../../build/drone_area_scanner/drone_area_scanner.egg-info/dependency_links.txt
+[3.079s] writing entry points to ../../../build/drone_area_scanner/drone_area_scanner.egg-info/entry_points.txt
+[3.079s] writing requirements to ../../../build/drone_area_scanner/drone_area_scanner.egg-info/requires.txt
+[3.079s] writing top-level names to ../../../build/drone_area_scanner/drone_area_scanner.egg-info/top_level.txt
+[3.083s] reading manifest file '../../../build/drone_area_scanner/drone_area_scanner.egg-info/SOURCES.txt'
+[3.084s] writing manifest file '../../../build/drone_area_scanner/drone_area_scanner.egg-info/SOURCES.txt'
+[3.085s] running build
+[3.085s] running build_py
+[3.085s] copying drone_area_scanner/drone_area_scanner_node.py -> /root/ros2_ws/build/drone_area_scanner/build/lib/drone_area_scanner
+[3.085s] running install
+[3.087s] running install_lib
+[3.089s] copying /root/ros2_ws/build/drone_area_scanner/build/lib/drone_area_scanner/drone_area_scanner_node.py -> /root/ros2_ws/install/drone_area_scanner/lib/python3.10/site-packages/drone_area_scanner
+[3.092s] byte-compiling /root/ros2_ws/install/drone_area_scanner/lib/python3.10/site-packages/drone_area_scanner/drone_area_scanner_node.py to drone_area_scanner_node.cpython-310.pyc
+[3.105s] running install_data
+[3.106s] running install_egg_info
+[3.110s] removing '/root/ros2_ws/install/drone_area_scanner/lib/python3.10/site-packages/drone_area_scanner-0.0.0-py3.10.egg-info' (and everything under it)
+[3.110s] Copying ../../../build/drone_area_scanner/drone_area_scanner.egg-info to /root/ros2_ws/install/drone_area_scanner/lib/python3.10/site-packages/drone_area_scanner-0.0.0-py3.10.egg-info
+[3.112s] running install_scripts
+[3.181s] Installing scanner_node script to /root/ros2_ws/install/drone_area_scanner/lib/drone_area_scanner
+[3.183s] writing list of installed files to '/root/ros2_ws/build/drone_area_scanner/install.log'
+[3.272s] Invoked command in '/root/ros2_ws/src/sjtu_drone/drone_area_scanner' returned '0': PYTHONPATH=/root/ros2_ws/build/drone_area_scanner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/drone_area_scanner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/drone_area_scanner build --build-base /root/ros2_ws/build/drone_area_scanner/build install --record /root/ros2_ws/build/drone_area_scanner/install.log --single-version-externally-managed install_data

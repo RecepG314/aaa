@@ -1,0 +1,42 @@
+2024-12-12 11:50:23.626 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-12-12 11:50:23.626 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-12-12 11:50:23.626 [info] Experiment 'pythonTestAdapter' is active
+2024-12-12 11:50:23.635 [info] Native locator: Refresh started
+2024-12-12 11:50:23.685 [info] Native locator: Refresh started
+2024-12-12 11:50:23.723 [info] > pyenv which python
+2024-12-12 11:50:23.723 [info] cwd: .
+2024-12-12 11:50:24.282 [info] Native locator: Refresh finished in 646 ms
+2024-12-12 11:50:24.296 [info] > python -c "import sys;print(sys.executable)"
+2024-12-12 11:50:24.297 [error] [Error: Command failed: python -c "import sys;print(sys.executable)"
+/bin/sh: 1: python: not found
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:423:12)
+	at ChildProcess.emit (node:events:531:35)
+	at maybeClose (node:internal/child_process:1105:16)
+	at Socket.<anonymous> (node:internal/child_process:457:11)
+	at Socket.emit (node:events:519:28)
+	at Pipe.<anonymous> (node:net:339:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'python -c "import sys;print(sys.executable)"'
+}
+2024-12-12 11:50:24.306 [info] > pyenv which python
+2024-12-12 11:50:24.306 [info] cwd: .
+2024-12-12 11:50:24.471 [info] Shell integration status changed, can confirm it's working.
+2024-12-12 11:50:25.162 [info] Starting Pylance language server.
+2024-12-12 12:02:36.991 [info] Discover tests for workspace name: ros2_ws - uri: /root/ros2_ws/src/sjtu_drone/ai_model_node/setup.cfg
+2024-12-12 12:03:41.784 [info] Discover tests for workspace name: ros2_ws - uri: /root/ros2_ws/src/sjtu_drone/ai_model_node/setup.py
+2024-12-12 12:03:42.057 [info] Discover tests for workspace name: ros2_ws - uri: /root/ros2_ws/src/sjtu_drone/ai_model_node/setup.py
+2024-12-12 12:03:51.582 [info] Discover tests for workspace name: ros2_ws - uri: /root/ros2_ws/src/sjtu_drone/ai_model_node/setup.py
+2024-12-12 12:05:25.410 [info] Discover tests for workspace name: ros2_ws - uri: /root/ros2_ws/src/sjtu_drone/ai_model_node/ai_model_node/classify_image.py
+2024-12-12 12:08:52.116 [info] Discover tests for workspace name: ros2_ws - uri: /root/ros2_ws/src/sjtu_drone/ai_model_node/ai_model_node/classify_image.py
+2024-12-12 12:20:13.660 [info] Discover tests for workspace name: ros2_ws - uri: /root/ros2_ws/src/sjtu_drone/drone_area_scanner/drone_area_scanner/drone_area_scanner_node.py
+2024-12-12 12:21:04.850 [info] Discover tests for workspace name: ros2_ws - uri: /root/ros2_ws/src/sjtu_drone/ai_model_node/ai_model_node/classify_image.py
+2024-12-12 12:21:11.399 [info] Discover tests for workspace name: ros2_ws - uri: /root/ros2_ws/src/sjtu_drone/ai_model_node/ai_model_node/classify_image.py
+2024-12-12 12:21:15.791 [info] Discover tests for workspace name: ros2_ws - uri: /root/ros2_ws/src/sjtu_drone/ai_model_node/ai_model_node/classify_image.py
+2024-12-12 12:26:01.870 [info] Discover tests for workspace name: ros2_ws - uri: /root/ros2_ws/src/sjtu_drone/ai_model_node/ai_model_node/classify_image.py
+2024-12-12 12:49:03.935 [info] Discover tests for workspace name: ros2_ws - uri: /root/ros2_ws/src/sjtu_drone/ai_model_node/ai_model_node/classify_image.py
+2024-12-12 12:49:32.166 [info] Discover tests for workspace name: ros2_ws - uri: /root/ros2_ws/src/sjtu_drone/ai_model_node/ai_model_node/classify_image.py

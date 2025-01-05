@@ -1,0 +1,31 @@
+2024-12-17 06:21:26.620 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-12-17 06:21:26.620 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-12-17 06:21:26.620 [info] Experiment 'pythonTestAdapter' is active
+2024-12-17 06:21:26.620 [info] Native locator: Refresh started
+2024-12-17 06:21:26.620 [info] Native locator: Refresh started
+2024-12-17 06:21:26.661 [info] Native locator: Refresh finished in 188 ms
+2024-12-17 06:21:26.668 [info] > pyenv which python
+2024-12-17 06:21:26.668 [info] cwd: .
+2024-12-17 06:21:27.522 [info] > python -c "import sys;print(sys.executable)"
+2024-12-17 06:21:27.538 [error] [Error: Command failed: python -c "import sys;print(sys.executable)"
+/bin/sh: 1: python: not found
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:423:12)
+	at ChildProcess.emit (node:events:531:35)
+	at maybeClose (node:internal/child_process:1105:16)
+	at Socket.<anonymous> (node:internal/child_process:457:11)
+	at Socket.emit (node:events:519:28)
+	at Pipe.<anonymous> (node:net:339:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'python -c "import sys;print(sys.executable)"'
+}
+2024-12-17 06:21:27.602 [info] > pyenv which python
+2024-12-17 06:21:27.602 [info] cwd: .
+2024-12-17 06:21:28.307 [info] Starting Pylance language server.
+2024-12-17 06:58:37.772 [info] Discover tests for workspace name: ros2_ws - uri: /root/ros2_ws/src/sjtu_drone/ai_model_node/setup.py
+2024-12-17 06:58:45.894 [info] Discover tests for workspace name: ros2_ws - uri: /root/ros2_ws/src/sjtu_drone/ai_model_node/setup.py
+2024-12-17 07:00:52.480 [info] Discover tests for workspace name: ros2_ws - uri: /root/ros2_ws/build/sjtu_drone_control/setup.cfg

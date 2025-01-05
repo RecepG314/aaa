@@ -1,0 +1,3 @@
+[console_scripts]
+classify_image = ai_model_node.classify_image:main
+

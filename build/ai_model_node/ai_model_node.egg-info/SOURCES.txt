@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+ai_model_node/__init__.py
+ai_model_node/classify_image.py
+ai_model_node.egg-info/PKG-INFO
+ai_model_node.egg-info/SOURCES.txt
+ai_model_node.egg-info/dependency_links.txt
+ai_model_node.egg-info/entry_points.txt
+ai_model_node.egg-info/requires.txt
+ai_model_node.egg-info/top_level.txt
+ai_model_node.egg-info/zip-safe
+resource/ai_model_node

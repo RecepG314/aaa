@@ -1,0 +1,35 @@
+2024-12-18 18:05:11.036 [info] Starting Python Locator /root/.vscode/extensions/ms-python.python-2024.22.0-linux-x64/python-env-tools/bin/pet server
+2024-12-18 18:05:11.040 [info] Discovered env: /root/python_test/my_env/bin/python
+2024-12-18 18:05:11.050 [info] Discovered env: /bin/python3
+2024-12-18 18:05:11.051 [info] Discovered env: /usr/bin/python3
+2024-12-18 18:05:11.052 [info] Discovered env: /usr/bin/python3.10
+2024-12-18 18:05:11.053 [info] Discovered env: /bin/python3.10
+2024-12-18 18:05:11.054 [info] Locator Conda took 85.279146ms
+2024-12-18 18:05:11.055 [info] Locator Homebrew took 169.265µs
+2024-12-18 18:05:11.055 [info] Locator LinuxGlobal took 56.384947ms
+2024-12-18 18:05:11.057 [info] Locator PipEnv took 22.211µs
+2024-12-18 18:05:11.058 [info] Locator Poetry took 313.004µs
+2024-12-18 18:05:11.060 [info] Locator PyEnv took 379.271µs
+2024-12-18 18:05:11.060 [info] Locator Venv took 68.669µs
+2024-12-18 18:05:11.061 [info] Locator VirtualEnv took 130.188µs
+2024-12-18 18:05:11.062 [info] Locator VirtualEnvWrapper took 278.264µs
+2024-12-18 18:05:11.062 [info] Locator GlobalVirtualEnvs took 54.892µs
+2024-12-18 18:05:11.063 [info] Locator Locators took 85.409541ms
+2024-12-18 18:05:11.063 [info] Locator Path took 51.642494ms
+2024-12-18 18:05:11.063 [info] Locator Workspaces took 2.409323ms
+2024-12-18 18:05:11.063 [info] Refresh completed in 85ms
+2024-12-18 18:05:11.068 [info] Resolved /usr/bin/python3
+2024-12-18 18:05:11.068 [info] Resolved /bin/python3
+2024-12-18 18:05:11.072 [info] Resolved /usr/bin/python3.10
+2024-12-18 18:05:11.073 [info] Resolved /bin/python3.10
+2024-12-18 18:05:11.077 [info] Resolved Python Environment /root/python_test/my_env/bin/python
+2024-12-18 18:05:11.086 [info] Resolved Python Environment /root/python_test/my_env/bin/python
+2024-12-18 18:06:38.118 [info] Resolved Python Environment /root/python_test/my_env/bin/python
+2024-12-18 18:07:08.451 [info] Resolved Python Environment /root/python_test/my_env/bin/python
+2024-12-18 18:11:41.125 [info] Resolved Python Environment /root/python_test/my_env/bin/python
+2024-12-18 18:13:42.754 [info] Resolved Python Environment /root/python_test/my_env/bin/python
+2024-12-18 18:14:45.144 [info] Resolved Python Environment /root/python_test/my_env/bin/python
+2024-12-18 18:15:16.307 [info] Resolved Python Environment /root/python_test/my_env/bin/python
+2024-12-18 18:53:17.324 [info] Resolved Python Environment /root/python_test/my_env/bin/python
+2024-12-18 18:57:21.605 [info] Resolved Python Environment /root/python_test/my_env/bin/python
+2024-12-18 19:06:11.268 [info] Resolved Python Environment /root/python_test/my_env/bin/python

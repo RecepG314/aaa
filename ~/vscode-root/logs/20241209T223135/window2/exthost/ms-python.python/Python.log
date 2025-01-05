@@ -1,0 +1,10 @@
+2024-12-10 08:20:15.617 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-12-10 08:20:15.618 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-12-10 08:20:15.618 [info] Experiment 'pythonTestAdapter' is active
+2024-12-10 08:20:15.618 [info] Native locator: Refresh started
+2024-12-10 08:20:15.619 [info] Native locator: Refresh started
+2024-12-10 08:20:15.619 [info] Native locator: Refresh started
+2024-12-10 08:20:15.759 [info] Native locator: Refresh finished in 2611 ms
+2024-12-10 08:20:15.785 [info] > pyenv which python
+2024-12-10 08:20:15.785 [info] cwd: .
+2024-12-10 08:20:15.860 [info] Python interpreter path: /usr/bin/python3

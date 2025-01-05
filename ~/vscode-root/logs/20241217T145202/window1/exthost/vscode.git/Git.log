@@ -1,0 +1,145 @@
+2024-12-17 14:52:06.298 [info] [main] Log level: Info
+2024-12-17 14:52:06.298 [info] [main] Validating found git in: "git"
+2024-12-17 14:52:06.298 [info] [main] Using git "2.34.1" from "git"
+2024-12-17 14:52:06.298 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-17 14:52:06.298 [info] > git rev-parse --show-toplevel [21ms]
+2024-12-17 14:52:06.298 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-17 14:52:06.298 [info] > git rev-parse --show-toplevel [23ms]
+2024-12-17 14:52:06.306 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-12-17 14:52:06.325 [info] [Model][openRepository] Opened repository: /root/ros2_ws/src/sjtu_drone
+2024-12-17 14:52:06.337 [info] > git rev-parse --show-toplevel [3ms]
+2024-12-17 14:52:06.338 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-17 14:52:06.338 [info] > git config --get commit.template [7ms]
+2024-12-17 14:52:06.352 [info] > git rev-parse --show-toplevel [8ms]
+2024-12-17 14:52:06.352 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-17 14:52:06.358 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/ros2 refs/remotes/ros2 [10ms]
+2024-12-17 14:52:06.362 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/ros2_ws/src/sjtu_drone/.git/refs/remotes/origin/ros2'
+2024-12-17 14:52:06.362 [info] > git rev-parse --show-toplevel [6ms]
+2024-12-17 14:52:06.363 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-17 14:52:06.367 [info] > git rev-parse refs/remotes/origin/ros2 [5ms]
+2024-12-17 14:52:06.377 [info] > git rev-parse --show-toplevel [11ms]
+2024-12-17 14:52:06.377 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-17 14:52:06.384 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2024-12-17 14:52:06.387 [info] > git rev-parse --show-toplevel [5ms]
+2024-12-17 14:52:06.387 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-17 14:52:06.389 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-12-17 14:52:06.400 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-17 14:52:06.400 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-17 14:52:06.644 [info] > git show --textconv :ai_model_node/setup.py [24ms]
+2024-12-17 14:52:06.644 [info] > git ls-files --stage -- /root/ros2_ws/src/sjtu_drone/ai_model_node/setup.py [21ms]
+2024-12-17 14:52:06.790 [info] > git rev-parse --show-toplevel [5ms]
+2024-12-17 14:52:06.790 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-17 14:52:06.830 [info] > git status -z -uall [459ms]
+2024-12-17 14:52:06.864 [info] > git check-ignore -v -z --stdin [7ms]
+2024-12-17 14:52:06.888 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/ros2 refs/remotes/ros2 [37ms]
+2024-12-17 14:52:06.895 [info] > git config --get commit.template [32ms]
+2024-12-17 14:52:06.899 [info] > git config --local branch.ros2.vscode-merge-base [6ms]
+2024-12-17 14:52:06.996 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/ros2 refs/remotes/ros2 [86ms]
+2024-12-17 14:52:06.997 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/ros2 refs/remotes/origin/ros2 [91ms]
+2024-12-17 14:52:07.019 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/ros2_ws/src/sjtu_drone/.git/refs/remotes/origin/ros2'
+2024-12-17 14:52:07.022 [info] > git merge-base refs/heads/ros2 refs/remotes/origin/ros2 [19ms]
+2024-12-17 14:52:07.074 [info] > git diff --name-status -z --diff-filter=ADMR 4a643e22d7cb0400c69eb0a62c689655d481b4db...refs/remotes/origin/ros2 [47ms]
+2024-12-17 14:52:07.074 [info] > git rev-parse refs/remotes/origin/ros2 [55ms]
+2024-12-17 14:52:07.099 [info] > git status -z -uall [21ms]
+2024-12-17 14:52:07.102 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [21ms]
+2024-12-17 16:25:45.210 [info] > git config --get commit.template [312ms]
+2024-12-17 16:25:45.574 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/ros2 refs/remotes/ros2 [662ms]
+2024-12-17 16:25:45.577 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/ros2_ws/src/sjtu_drone/.git/refs/remotes/origin/ros2'
+2024-12-17 16:25:45.602 [info] > git rev-parse refs/remotes/origin/ros2 [25ms]
+2024-12-17 16:25:45.671 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [60ms]
+2024-12-17 16:25:49.353 [info] > git status -z -uall [3746ms]
+2024-12-17 16:25:50.050 [info] > git check-ignore -v -z --stdin [1ms]
+2024-12-17 16:25:51.423 [info] > git show --textconv :ai_model_node/ai_model_node/classify_image.py [9ms]
+2024-12-17 16:25:51.435 [info] > git ls-files --stage -- /root/ros2_ws/src/sjtu_drone/ai_model_node/ai_model_node/classify_image.py [17ms]
+2024-12-17 16:25:54.378 [info] > git config --get commit.template [7ms]
+2024-12-17 16:25:54.379 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/ros2 refs/remotes/ros2 [3ms]
+2024-12-17 16:25:54.385 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/ros2_ws/src/sjtu_drone/.git/refs/remotes/origin/ros2'
+2024-12-17 16:25:54.388 [info] > git rev-parse refs/remotes/origin/ros2 [3ms]
+2024-12-17 16:25:54.403 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-12-17 16:25:54.416 [info] > git status -z -uall [23ms]
+2024-12-17 16:26:06.757 [info] > git config --get commit.template [4ms]
+2024-12-17 16:26:06.758 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/ros2 refs/remotes/ros2 [2ms]
+2024-12-17 16:26:06.760 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/ros2_ws/src/sjtu_drone/.git/refs/remotes/origin/ros2'
+2024-12-17 16:26:06.761 [info] > git rev-parse refs/remotes/origin/ros2 [1ms]
+2024-12-17 16:26:06.768 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-12-17 16:26:06.776 [info] > git status -z -uall [12ms]
+2024-12-17 16:28:10.503 [info] > git config --get commit.template [7ms]
+2024-12-17 16:28:10.558 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/ros2 refs/remotes/ros2 [19ms]
+2024-12-17 16:28:10.564 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/ros2_ws/src/sjtu_drone/.git/refs/remotes/origin/ros2'
+2024-12-17 16:28:10.565 [info] > git rev-parse refs/remotes/origin/ros2 [2ms]
+2024-12-17 16:28:10.601 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-12-17 16:28:10.606 [info] > git status -z -uall [36ms]
+2024-12-17 16:29:09.056 [info] > git check-ignore -v -z --stdin [2ms]
+2024-12-17 16:29:10.576 [info] > git check-ignore -v -z --stdin [3ms]
+2024-12-17 16:29:30.053 [info] > git show --textconv :drone_area_scanner/drone_area_scanner/drone_area_scanner_node.py [7ms]
+2024-12-17 16:29:30.055 [info] > git ls-files --stage -- /root/ros2_ws/src/sjtu_drone/drone_area_scanner/drone_area_scanner/drone_area_scanner_node.py [2ms]
+2024-12-17 16:30:37.492 [info] > git config --get commit.template [2ms]
+2024-12-17 16:30:37.496 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/ros2 refs/remotes/ros2 [1ms]
+2024-12-17 16:30:37.500 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/ros2_ws/src/sjtu_drone/.git/refs/remotes/origin/ros2'
+2024-12-17 16:30:37.501 [info] > git rev-parse refs/remotes/origin/ros2 [1ms]
+2024-12-17 16:30:37.509 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-12-17 16:30:37.517 [info] > git status -z -uall [13ms]
+2024-12-17 16:31:23.148 [info] > git config --get commit.template [1ms]
+2024-12-17 16:31:23.152 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/ros2 refs/remotes/ros2 [1ms]
+2024-12-17 16:31:23.155 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/ros2_ws/src/sjtu_drone/.git/refs/remotes/origin/ros2'
+2024-12-17 16:31:23.156 [info] > git rev-parse refs/remotes/origin/ros2 [1ms]
+2024-12-17 16:31:23.162 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-12-17 16:31:23.170 [info] > git status -z -uall [11ms]
+2024-12-17 16:42:28.385 [info] > git show --textconv :ai_model_node/ai_model_node/classify_image.py [21ms]
+2024-12-17 16:42:28.387 [info] > git ls-files --stage -- /root/ros2_ws/src/sjtu_drone/ai_model_node/ai_model_node/classify_image.py [17ms]
+2024-12-17 16:42:46.491 [info] > git show --textconv :drone_area_scanner/drone_area_scanner/drone_area_scanner_node.py [9ms]
+2024-12-17 16:42:46.492 [info] > git ls-files --stage -- /root/ros2_ws/src/sjtu_drone/drone_area_scanner/drone_area_scanner/drone_area_scanner_node.py [3ms]
+2024-12-17 16:43:48.160 [info] > git show --textconv :ai_model_node/ai_model_node/classify_image.py [7ms]
+2024-12-17 16:43:48.162 [info] > git ls-files --stage -- /root/ros2_ws/src/sjtu_drone/ai_model_node/ai_model_node/classify_image.py [2ms]
+2024-12-17 16:58:48.625 [info] > git config --get commit.template [3ms]
+2024-12-17 16:58:48.636 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/ros2 refs/remotes/ros2 [6ms]
+2024-12-17 16:58:48.640 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/ros2_ws/src/sjtu_drone/.git/refs/remotes/origin/ros2'
+2024-12-17 16:58:48.642 [info] > git rev-parse refs/remotes/origin/ros2 [2ms]
+2024-12-17 16:58:48.651 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-12-17 16:58:48.666 [info] > git status -z -uall [21ms]
+2024-12-17 17:01:29.237 [info] > git config --get commit.template [3ms]
+2024-12-17 17:01:29.238 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/ros2 refs/remotes/ros2 [1ms]
+2024-12-17 17:01:29.241 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/ros2_ws/src/sjtu_drone/.git/refs/remotes/origin/ros2'
+2024-12-17 17:01:29.242 [info] > git rev-parse refs/remotes/origin/ros2 [2ms]
+2024-12-17 17:01:29.249 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-17 17:01:29.255 [info] > git status -z -uall [11ms]
+2024-12-17 17:03:27.631 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/ros2 refs/remotes/ros2 [4ms]
+2024-12-17 17:03:27.640 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/ros2_ws/src/sjtu_drone/.git/refs/remotes/origin/ros2'
+2024-12-17 17:03:27.642 [info] > git rev-parse refs/remotes/origin/ros2 [3ms]
+2024-12-17 17:03:27.642 [info] > git config --get commit.template [27ms]
+2024-12-17 17:03:27.660 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-17 17:03:27.687 [info] > git status -z -uall [36ms]
+2024-12-17 17:03:32.713 [info] > git config --get commit.template [2ms]
+2024-12-17 17:03:32.725 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/ros2 refs/remotes/ros2 [3ms]
+2024-12-17 17:03:32.732 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/ros2_ws/src/sjtu_drone/.git/refs/remotes/origin/ros2'
+2024-12-17 17:03:32.735 [info] > git rev-parse refs/remotes/origin/ros2 [2ms]
+2024-12-17 17:03:32.756 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2024-12-17 17:03:32.770 [info] > git status -z -uall [29ms]
+2024-12-17 17:44:36.210 [info] > git check-ignore -v -z --stdin [11ms]
+2024-12-17 17:44:39.494 [info] > git check-ignore -v -z --stdin [1ms]
+2024-12-17 17:44:41.926 [info] > git ls-files --stage -- /root/ros2_ws/src/sjtu_drone/sjtu_drone_description/urdf/sjtu_drone.urdf [1ms]
+2024-12-17 17:44:41.931 [info] > git show --textconv :sjtu_drone_description/urdf/sjtu_drone.urdf [13ms]
+2024-12-17 17:44:41.934 [info] > git cat-file -s d9e039fb40e6332e793eed1b42d2ea09d8e0e21b [4ms]
+2024-12-17 17:46:06.610 [info] > git show --textconv :sjtu_drone_description/urdf/sjtu_drone.urdf.xacro [5ms]
+2024-12-17 17:46:06.611 [info] > git ls-files --stage -- /root/ros2_ws/src/sjtu_drone/sjtu_drone_description/urdf/sjtu_drone.urdf.xacro [2ms]
+2024-12-17 17:46:06.620 [info] > git cat-file -s bf1c968fbe1af0c94579b9abff68f9ebc2c4a063 [2ms]
+2024-12-17 17:48:54.519 [info] > git show --textconv :ai_model_node/ai_model_node/classify_image.py [16ms]
+2024-12-17 17:48:54.524 [info] > git ls-files --stage -- /root/ros2_ws/src/sjtu_drone/ai_model_node/ai_model_node/classify_image.py [15ms]
+2024-12-17 18:31:32.539 [info] > git config --get commit.template [36ms]
+2024-12-17 18:31:32.549 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/ros2 refs/remotes/ros2 [29ms]
+2024-12-17 18:31:32.556 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/ros2_ws/src/sjtu_drone/.git/refs/remotes/origin/ros2'
+2024-12-17 18:31:32.560 [info] > git rev-parse refs/remotes/origin/ros2 [4ms]
+2024-12-17 18:31:32.584 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-12-17 18:31:32.653 [info] > git status -z -uall [79ms]
+2024-12-17 18:31:37.672 [info] > git config --get commit.template [2ms]
+2024-12-17 18:31:37.680 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/ros2 refs/remotes/ros2 [3ms]
+2024-12-17 18:31:37.686 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/ros2_ws/src/sjtu_drone/.git/refs/remotes/origin/ros2'
+2024-12-17 18:31:37.689 [info] > git rev-parse refs/remotes/origin/ros2 [4ms]
+2024-12-17 18:31:37.713 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2024-12-17 18:31:37.720 [info] > git status -z -uall [24ms]
+2024-12-17 18:42:25.645 [info] > git config --get commit.template [5ms]
+2024-12-17 18:42:25.645 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/ros2 refs/remotes/ros2 [1ms]
+2024-12-17 18:42:25.650 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/ros2_ws/src/sjtu_drone/.git/refs/remotes/origin/ros2'
+2024-12-17 18:42:25.651 [info] > git rev-parse refs/remotes/origin/ros2 [1ms]
+2024-12-17 18:42:25.661 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-17 18:42:25.671 [info] > git status -z -uall [16ms]

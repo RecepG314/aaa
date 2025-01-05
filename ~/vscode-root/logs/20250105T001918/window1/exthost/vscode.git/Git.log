@@ -1,0 +1,62 @@
+2025-01-05 00:19:24.080 [info] [main] Log level: Info
+2025-01-05 00:19:24.080 [info] [main] Validating found git in: "git"
+2025-01-05 00:19:24.144 [info] [main] Using git "2.34.1" from "git"
+2025-01-05 00:19:24.144 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-05 00:19:24.585 [info] > git rev-parse --show-toplevel [425ms]
+2025-01-05 00:19:24.585 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-05 00:19:24.875 [info] > git rev-parse --show-toplevel [218ms]
+2025-01-05 00:19:24.885 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2025-01-05 00:19:24.912 [info] [Model][openRepository] Opened repository: /root/ros2_ws/src/sjtu_drone
+2025-01-05 00:19:24.931 [info] > git rev-parse --show-toplevel [4ms]
+2025-01-05 00:19:24.932 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-05 00:19:24.932 [info] > git config --get commit.template [11ms]
+2025-01-05 00:19:24.951 [info] > git rev-parse --show-toplevel [11ms]
+2025-01-05 00:19:24.951 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-05 00:19:24.961 [info] > git rev-parse --show-toplevel [3ms]
+2025-01-05 00:19:24.971 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-05 00:19:24.977 [info] > git rev-parse --show-toplevel [1ms]
+2025-01-05 00:19:24.977 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-05 00:19:24.983 [info] > git rev-parse --show-toplevel [2ms]
+2025-01-05 00:19:24.983 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-05 00:19:24.985 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-05 00:19:25.147 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/ros2 refs/remotes/ros2 [198ms]
+2025-01-05 00:19:25.153 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/ros2_ws/src/sjtu_drone/.git/refs/remotes/origin/ros2'
+2025-01-05 00:19:25.155 [info] > git rev-parse refs/remotes/origin/ros2 [2ms]
+2025-01-05 00:19:25.187 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [13ms]
+2025-01-05 00:19:25.525 [info] > git show --textconv :ai_model_node/ai_model_node/classify_image.py [21ms]
+2025-01-05 00:19:25.527 [info] > git ls-files --stage -- /root/ros2_ws/src/sjtu_drone/ai_model_node/ai_model_node/classify_image.py [12ms]
+2025-01-05 00:19:25.854 [info] > git check-ignore -v -z --stdin [10ms]
+2025-01-05 00:19:25.989 [info] > git status -z -uall [823ms]
+2025-01-05 00:19:26.027 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/ros2 refs/remotes/ros2 [10ms]
+2025-01-05 00:19:26.037 [info] > git config --local branch.ros2.vscode-merge-base [3ms]
+2025-01-05 00:19:26.046 [info] > git config --get commit.template [19ms]
+2025-01-05 00:19:26.052 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/ros2 refs/remotes/origin/ros2 [7ms]
+2025-01-05 00:19:26.078 [info] > git merge-base refs/heads/ros2 refs/remotes/origin/ros2 [12ms]
+2025-01-05 00:19:26.355 [info] > git diff --name-status -z --diff-filter=ADMR 4a643e22d7cb0400c69eb0a62c689655d481b4db...refs/remotes/origin/ros2 [268ms]
+2025-01-05 00:19:26.356 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/ros2 refs/remotes/ros2 [279ms]
+2025-01-05 00:19:26.394 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/root/ros2_ws/src/sjtu_drone/.git/refs/remotes/origin/ros2'
+2025-01-05 00:19:26.396 [info] > git rev-parse refs/remotes/origin/ros2 [2ms]
+2025-01-05 00:19:26.405 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-05 00:19:26.413 [info] > git status -z -uall [14ms]
+2025-01-05 00:20:01.083 [info] > git rev-parse --show-toplevel [1ms]
+2025-01-05 00:20:01.083 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-05 00:26:10.169 [info] > git rev-parse --show-toplevel [1ms]
+2025-01-05 00:26:10.173 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-01-05 00:26:10.177 [info] [Model][openRepository] Opened repository: /root/ros2_ws
+2025-01-05 00:26:10.186 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-05 00:26:10.187 [info] > git config --get commit.template [4ms]
+2025-01-05 00:26:10.188 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-01-05 00:26:10.188 [warning] [Git][getBranch] No such branch: master
+2025-01-05 00:26:10.198 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-01-05 00:26:10.220 [info] > git status -z -uall [28ms]
+2025-01-05 00:26:10.251 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2025-01-05 00:26:10.251 [warning] [Git][getBranch] No such branch: master
+2025-01-05 00:26:10.252 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-01-05 00:26:10.254 [info] > git config --get commit.template [3ms]
+2025-01-05 00:26:10.261 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-05 00:26:10.261 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-01-05 00:26:10.262 [warning] [Git][getBranch] No such branch: master
+2025-01-05 00:26:10.268 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-05 00:26:10.273 [info] > git status -z -uall [9ms]
+2025-01-05 00:26:10.718 [info] > git check-ignore -v -z --stdin [4ms]
+2025-01-05 00:26:10.718 [info] > git check-ignore -v -z --stdin [1ms]

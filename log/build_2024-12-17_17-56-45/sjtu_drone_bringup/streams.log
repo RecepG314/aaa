@@ -1,0 +1,19 @@
+[1.282s] Invoking command in '/root/ros2_ws/build/sjtu_drone_bringup': PS1=(my_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/root/ros2_ws/build/sjtu_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(my_env) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/sjtu_drone_bringup/build --no-deps symlink_data
+[1.559s] running develop
+[1.559s] /root/python_test/my_env/lib/python3.10/site-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.560s]   warnings.warn(
+[1.708s] running egg_info
+[1.708s] writing sjtu_drone_bringup.egg-info/PKG-INFO
+[1.708s] writing dependency_links to sjtu_drone_bringup.egg-info/dependency_links.txt
+[1.708s] writing entry points to sjtu_drone_bringup.egg-info/entry_points.txt
+[1.708s] writing requirements to sjtu_drone_bringup.egg-info/requires.txt
+[1.708s] writing top-level names to sjtu_drone_bringup.egg-info/top_level.txt
+[1.709s] reading manifest file 'sjtu_drone_bringup.egg-info/SOURCES.txt'
+[1.710s] writing manifest file 'sjtu_drone_bringup.egg-info/SOURCES.txt'
+[1.712s] running build_ext
+[1.712s] Creating /root/ros2_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages/sjtu-drone-bringup.egg-link (link to .)
+[1.714s] Installing spawn_drone script to /root/ros2_ws/install/sjtu_drone_bringup/lib/sjtu_drone_bringup
+[1.715s] 
+[1.715s] Installed /root/ros2_ws/build/sjtu_drone_bringup
+[1.715s] running symlink_data
+[1.757s] Invoked command in '/root/ros2_ws/build/sjtu_drone_bringup' returned '0': PS1=(my_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/root/ros2_ws/build/sjtu_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(my_env) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/sjtu_drone_bringup/build --no-deps symlink_data

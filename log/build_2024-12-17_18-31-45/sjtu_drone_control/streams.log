@@ -1,0 +1,22 @@
+[3.246s] Invoking command in '/root/ros2_ws/build/sjtu_drone_control': PS1=(my_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/root/ros2_ws/build/sjtu_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/sjtu_drone_control/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(my_env) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/sjtu_drone_control/build --no-deps symlink_data
+[3.797s] running develop
+[3.802s] /root/python_test/my_env/lib/python3.10/site-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.802s]   warnings.warn(
+[4.088s] running egg_info
+[4.089s] writing sjtu_drone_control.egg-info/PKG-INFO
+[4.091s] writing dependency_links to sjtu_drone_control.egg-info/dependency_links.txt
+[4.091s] writing entry points to sjtu_drone_control.egg-info/entry_points.txt
+[4.091s] writing requirements to sjtu_drone_control.egg-info/requires.txt
+[4.091s] writing top-level names to sjtu_drone_control.egg-info/top_level.txt
+[4.094s] reading manifest file 'sjtu_drone_control.egg-info/SOURCES.txt'
+[4.097s] writing manifest file 'sjtu_drone_control.egg-info/SOURCES.txt'
+[4.098s] running build_ext
+[4.098s] Creating /root/ros2_ws/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu-drone-control.egg-link (link to .)
+[4.099s] Installing drone_position_control script to /root/ros2_ws/install/sjtu_drone_control/lib/sjtu_drone_control
+[4.102s] Installing open_loop_control script to /root/ros2_ws/install/sjtu_drone_control/lib/sjtu_drone_control
+[4.103s] Installing teleop script to /root/ros2_ws/install/sjtu_drone_control/lib/sjtu_drone_control
+[4.103s] Installing teleop_joystick script to /root/ros2_ws/install/sjtu_drone_control/lib/sjtu_drone_control
+[4.103s] 
+[4.103s] Installed /root/ros2_ws/build/sjtu_drone_control
+[4.103s] running symlink_data
+[4.195s] Invoked command in '/root/ros2_ws/build/sjtu_drone_control' returned '0': PS1=(my_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/root/ros2_ws/build/sjtu_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/sjtu_drone_control/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(my_env) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/sjtu_drone_control/build --no-deps symlink_data

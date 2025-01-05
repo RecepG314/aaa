@@ -1,0 +1,35 @@
+running egg_info
+creating ../../../build/drone_area_scanner/drone_area_scanner.egg-info
+writing ../../../build/drone_area_scanner/drone_area_scanner.egg-info/PKG-INFO
+writing dependency_links to ../../../build/drone_area_scanner/drone_area_scanner.egg-info/dependency_links.txt
+writing entry points to ../../../build/drone_area_scanner/drone_area_scanner.egg-info/entry_points.txt
+writing requirements to ../../../build/drone_area_scanner/drone_area_scanner.egg-info/requires.txt
+writing top-level names to ../../../build/drone_area_scanner/drone_area_scanner.egg-info/top_level.txt
+writing manifest file '../../../build/drone_area_scanner/drone_area_scanner.egg-info/SOURCES.txt'
+reading manifest file '../../../build/drone_area_scanner/drone_area_scanner.egg-info/SOURCES.txt'
+writing manifest file '../../../build/drone_area_scanner/drone_area_scanner.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_ws/build/drone_area_scanner/build
+creating /root/ros2_ws/build/drone_area_scanner/build/lib
+creating /root/ros2_ws/build/drone_area_scanner/build/lib/drone_area_scanner
+copying drone_area_scanner/drone_area_scanner.py -> /root/ros2_ws/build/drone_area_scanner/build/lib/drone_area_scanner
+copying drone_area_scanner/__init__.py -> /root/ros2_ws/build/drone_area_scanner/build/lib/drone_area_scanner
+running install
+running install_lib
+creating /root/ros2_ws/install/drone_area_scanner/lib/python3.10/site-packages/drone_area_scanner
+copying /root/ros2_ws/build/drone_area_scanner/build/lib/drone_area_scanner/drone_area_scanner.py -> /root/ros2_ws/install/drone_area_scanner/lib/python3.10/site-packages/drone_area_scanner
+copying /root/ros2_ws/build/drone_area_scanner/build/lib/drone_area_scanner/__init__.py -> /root/ros2_ws/install/drone_area_scanner/lib/python3.10/site-packages/drone_area_scanner
+byte-compiling /root/ros2_ws/install/drone_area_scanner/lib/python3.10/site-packages/drone_area_scanner/drone_area_scanner.py to drone_area_scanner.cpython-310.pyc
+byte-compiling /root/ros2_ws/install/drone_area_scanner/lib/python3.10/site-packages/drone_area_scanner/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /root/ros2_ws/install/drone_area_scanner/share/ament_index
+creating /root/ros2_ws/install/drone_area_scanner/share/ament_index/resource_index
+creating /root/ros2_ws/install/drone_area_scanner/share/ament_index/resource_index/packages
+copying resource/drone_area_scanner -> /root/ros2_ws/install/drone_area_scanner/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_ws/install/drone_area_scanner/share/drone_area_scanner
+running install_egg_info
+Copying ../../../build/drone_area_scanner/drone_area_scanner.egg-info to /root/ros2_ws/install/drone_area_scanner/lib/python3.10/site-packages/drone_area_scanner-0.0.0-py3.10.egg-info
+running install_scripts
+Installing scanner_node script to /root/ros2_ws/install/drone_area_scanner/lib/drone_area_scanner
+writing list of installed files to '/root/ros2_ws/build/drone_area_scanner/install.log'

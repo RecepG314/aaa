@@ -1,0 +1,22 @@
+2024-12-18 18:05:11.036 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-12-18 18:05:11.036 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-12-18 18:05:11.036 [info] Experiment 'pythonTestAdapter' is active
+2024-12-18 18:05:11.036 [info] Native locator: Refresh started
+2024-12-18 18:05:11.036 [info] VS Code was launched from an activated environment: 'my_env', selecting it as the interpreter for workspace.
+2024-12-18 18:05:11.075 [info] Native locator: Refresh finished in 164 ms
+2024-12-18 18:05:11.080 [info] Python interpreter path: ~/python_test/my_env/bin/python
+2024-12-18 18:05:11.152 [info] > pyenv which python
+2024-12-18 18:05:11.152 [info] cwd: .
+2024-12-18 18:05:12.049 [info] > . ~/python_test/my_env/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2024.22.0-linux-x64/python_files/printEnvVariables.py
+2024-12-18 18:05:12.049 [info] shell: bash
+2024-12-18 18:05:12.100 [info] > python ~/.vscode/extensions/ms-python.python-2024.22.0-linux-x64/python_files/printEnvVariables.py
+2024-12-18 18:05:12.100 [info] shell: bash
+2024-12-18 18:05:12.174 [info] Prepending environment variable PS1 in collection with (my_env)  {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2024-12-18 18:05:12.174 [info] Prepending environment variable PATH in collection with /root/.vscode/extensions/ms-python.python-2024.22.0-linux-x64/python_files/deactivate/bash:/root/python_test/my_env/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2024-12-18 18:05:12.179 [info] Send text to terminal: python /root/.vscode/extensions/ms-python.python-2024.22.0-linux-x64/python_files/printEnvVariablesToFile.py /root/.vscode/extensions/ms-python.python-2024.22.0-linux-x64/python_files/deactivate/bash/envVars.txt
+2024-12-18 18:05:12.784 [info] Starting Pylance language server.
+2024-12-18 18:15:33.671 [info] Discover tests for workspace name: ros2_ws - uri: /root/ros2_ws/src/sjtu_drone/sjtu_drone_bringup/launch/sjtu_drone_gazebo.launch.py
+2024-12-18 18:15:48.140 [info] Discover tests for workspace name: ros2_ws - uri: /root/ros2_ws/src/sjtu_drone/sjtu_drone_bringup/launch/sjtu_drone_gazebo.launch.py
+2024-12-18 18:15:48.448 [info] Discover tests for workspace name: ros2_ws - uri: /root/ros2_ws/src/sjtu_drone/sjtu_drone_bringup/launch/sjtu_drone_gazebo.launch.py
+2024-12-18 18:59:08.840 [info] Discover tests for workspace name: ros2_ws - uri: /root/ros2_ws/src/sjtu_drone/drone_area_scanner/drone_area_scanner/drone_area_scanner_node.py
+2024-12-18 19:07:48.340 [info] Discover tests for workspace name: ros2_ws - uri: /root/ros2_ws/src/sjtu_drone/ai_model_node/ai_model_node/classify_image.py

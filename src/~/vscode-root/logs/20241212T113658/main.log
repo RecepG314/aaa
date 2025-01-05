@@ -1,0 +1,15 @@
+2024-12-12 11:36:59.090 [info] update#setState idle
+2024-12-12 11:37:05.480 [error] CodeWindow: renderer process gone (reason: crashed, code: 133)
+2024-12-12 11:37:05.609 [info] Extension host with pid 327 exited with code: 0, signal: unknown.
+2024-12-12 11:37:13.928 [error] CodeWindow: renderer process gone (reason: crashed, code: 133)
+2024-12-12 11:37:13.965 [info] Extension host with pid 440 exited with code: 0, signal: unknown.
+2024-12-12 11:37:16.581 [error] [UtilityProcess id: 2, type: fileWatcher, pid: 429]: crashed with code 139 and reason 'crashed'
+2024-12-12 11:37:29.091 [info] update#setState checking for updates
+2024-12-12 11:37:29.094 [error] [network] #4: https://update.code.visualstudio.com/api/update/linux-x64/stable/912bb683695358a54ae0c670461738984cbb5b95 - error undefined net::ERR_INSUFFICIENT_RESOURCES
+2024-12-12 11:37:29.094 [error] Error: net::ERR_INSUFFICIENT_RESOURCES
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:117531)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-12-12 11:37:29.094 [info] update#setState idle
+2024-12-12 11:48:38.931 [info] Extension host with pid 516 exited with code: 0, signal: unknown.
+2024-12-12 12:37:28.939 [info] update#setState checking for updates
+2024-12-12 12:37:29.508 [info] update#setState available for download

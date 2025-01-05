@@ -1,0 +1,10 @@
+2024-12-09 22:31:35.835 [info] update#setState idle
+2024-12-09 22:32:05.716 [info] update#setState checking for updates
+2024-12-09 22:32:05.720 [info] update#setState available for download
+2024-12-10 00:44:44.871 [warning] No ptyHost heartbeat after 6 seconds
+2024-12-10 00:52:48.176 [warning] No ptyHost heartbeat after 6 seconds
+2024-12-10 00:53:00.555 [warning] No ptyHost heartbeat after 6 seconds
+2024-12-10 08:07:08.850 [warning] No ptyHost heartbeat after 6 seconds
+2024-12-10 08:18:14.888 [info] Extension host with pid 1314 exited with code: 0, signal: unknown.
+2024-12-10 08:19:49.023 [info] Extension host with pid 7055 exited with code: 0, signal: unknown.
+2024-12-10 08:19:49.161 [error] [UtilityProcessWorker]: terminated unexpectedly with code 82, signal: unknown
